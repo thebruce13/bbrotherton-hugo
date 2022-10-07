@@ -4,40 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
-- type: directory
-  path: exampleSite/content/blog
-  label: Post
-  create: documents
+- type: document
+  path: data/planners.json
+  label: Planners
   match: "**/*"
-  templates:
-  - post
-- type: heading
-  label: Others Pages
-- type: directory
-  path: exampleSite/content/about
-  label: About
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/contact
-  label: Contact
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content
-  label: All Pages
-  create: all
-  match: "**/*"
-- type: heading
-  label: Configuration
-- type: directory
-  path: exampleSite
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
