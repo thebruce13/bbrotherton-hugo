@@ -5,11 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: data
-  label: Planners
+  path: content/blog
+  label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
