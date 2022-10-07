@@ -1,0 +1,67 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- name: product
+  type: text
+  config:
+    required: false
+  label: Product Link
+  description: Put in a link for the header image to buy a print or other item.
+- type: list
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: description
+  label: description
+  description: Meta description
+pages:
+- exampleSite/content/blog/a-journey-begins.md
+- exampleSite/content/blog/a-journey-begins.md
+- exampleSite/content/blog/box-model-borders.md
+- exampleSite/content/blog/box-model-borders.md
+- exampleSite/content/blog/box-model-content.md
+- exampleSite/content/blog/box-model-content.md
+- exampleSite/content/blog/box-model-inline-and-block-elements.md
+- exampleSite/content/blog/box-model-inline-and-block-elements.md
+- exampleSite/content/blog/box-model-padding-and-margin.md
+- exampleSite/content/blog/box-model-padding-and-margin.md
+- exampleSite/content/blog/box-model.md
+- exampleSite/content/blog/box-model.md
+- exampleSite/content/blog/css-inherit-property.md
+- exampleSite/content/blog/css-inherit-property.md
+- exampleSite/content/blog/css-regions.md
+- exampleSite/content/blog/css-regions.md
+- exampleSite/content/blog/going-linux.md
+- exampleSite/content/blog/going-linux.md
+- exampleSite/content/blog/hyphens-on-the-web.md
+- exampleSite/content/blog/hyphens-on-the-web.md
+- exampleSite/content/blog/my-bullet-journal-and-me.md
+- exampleSite/content/blog/my-bullet-journal-and-me.md
+- exampleSite/content/blog/my-journey-through-tech.md
+- exampleSite/content/blog/my-journey-through-tech.md
+- exampleSite/content/blog/snapchat-filters.md
+- exampleSite/content/blog/snapchat-filters.md
+- exampleSite/content/blog/the-story-of-a-backpack.md
+- exampleSite/content/blog/the-story-of-a-backpack.md
+- exampleSite/content/blog/transition-end-event-listener.md
+- exampleSite/content/blog/transitions-and-event-listeners.md
+- exampleSite/content/blog/will-my-phone-replace-my-comptuer.md
+- exampleSite/content/blog/will-my-phone-replace-my-comptuer.md
+- exampleSite/content/blog/you-re-padding-all-wrong.md
+- exampleSite/content/blog/you-re-padding-all-wrong.md
