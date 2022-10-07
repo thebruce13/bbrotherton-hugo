@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" type="text/css">
+    <title>Bruce Brotherton Contact Card</title>
+    <style>
+        html {
+            min-height: 100%;
+          }
+          
+          html,
+          body {
+            hyphens: auto;
+            overflow: auto;
+          }
+          
+          body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+            color: #000;
+            background-image: linear-gradient(to bottom right, #db7093, #228cdb);
+            background-size: cover;
+          }
+          
+          *, *::before, *::after {
+            hyphens: inherit;
+          }
+          
+          a,
+          a:visited,
+          a:active {
+            color: DodgerBlue;
+          }
+          
+          p {
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5%;
+            margin-bottom: 15%;
+          }
+          
+          .card {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 5px;
+            transform: rotate(0deg);
+            border: 1px solid #000;
+            background-color: #0f0f0f;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+          }
+          
+          .header {
+            color: canvas;
+            text-align: center;
+            padding: 1rem;
+          }
+          
+          .profileImg {
+            width: 8rem;
+            height: 8rem;
+            border-radius: 10rem;
+            background-color: #fff;
+            margin: -8% auto 1rem;
+            background-image: url("https://www.brucebrotherton.com/images/me-purple.jpg");
+            background-size: cover;
+            border: 2px solid white;
+          }
+          
+          .name {
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(to bottom right, #db7093, #228cdb);
+            font-size: 1em;
+            color: #fff;
+          }
+          
+          .name > * {
+            margin: 0.5em 0 0;
+          }
+          
+          .links {
+            padding: 0;
+            list-style-type: none;
+          }
+          
+          .links > li {
+            padding: 0 1rem;
+            line-height: 2;
+          }
+          
+          .links > li > a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            text-decoration: none;
+            padding: 1rem;
+            background-color: #222;
+            border-bottom: 1px solid #333;
+          }
+          
+          .links > li > a:hover {
+            background-color: #333;
+          }
+          
+          .links > li > a > p {
+            text-decoration: underline;
+          }
+          
+          .links > li > a:hover > p {
+            text-decoration: none;
+          }
+          
+          .icon {
+            display: block;
+            width: 2em;
+            height: 2em;
+            margin-right: 0.75em;
+          }
+          
+          .fab,
+          .fas {
+            color: #db7093;
+            display: block;
+            font-size: 2em;
+            text-decoration: none;
+            margin-right: 0.5em;
+          }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+      <div class="card">
+        <div class="header">
+          <div class="profileImg"></div>
+          <div class="name">
+            <h1>Bruce Brother&shy;ton</h1>
+            <h2>Front End Web Developer</h2>
+          </div>
+        </div>
+        <ul class="links">
+          <li><a href="https://www.bmfb.rocks"><img class="icon" src="https://www.brucebrotherton.com/images/favicon.png"/>
+              <p>bmfb.rocks</p></a></li>
+          <li><a href="https://www.amazon.com/dp/B0BDXQNLHD"><i class="fas fa-book"></i><p>Adventure Planner</p></a></li>
+          <li><a href="https://www.teepublic.com/user/thebruce13"><i class="fas fa-tshirt"></i><p>T-Shirts</p></a></li>
+          <li><a href="https://www.linkedin.com/in/brothertonbruce/"><i class="fab fa-linkedin"></i>
+              <p>LinkedIn</p></a></li>
+          <li><a href="https://www.instagram.com/bruce.brotherton/"><i class="fab fa-instagram-square"></i>
+              <p>Instagram</p></a></li>
+          <li><a href="https://twitter.com/brucebrotherton"><i class="fab fa-twitter-square"></i>
+              <p>Twitter</p></a></li>
+          <li><a href="tel:+12629238377"><i class="fas fa-phone-square-alt"></i>
+              <p>Phone</p></a></li>
+          <li><a href="mailto:brucemotherfuckingbrotherton@bmfb.rocks"><i class="fas fa-envelope-square"></i>
+              <p>Bruce&shy;Mother&shy;Fucking&shy;Brother&shy;ton@bmfb.rocks</p></a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

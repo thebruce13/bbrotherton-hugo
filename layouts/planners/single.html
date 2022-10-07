@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<article class="page type-page status-publish hentry">
+	<header class="entry-header has-text-align-center header-footer-group">
+		<div class="entry-header-inner section-inner medium">
+			<h1 class="entry-title">{{ .Title }}</h1>
+		</div><!-- .entry-header-inner -->
+	</header><!-- .entry-header -->
+
+	<div class="post-inner thin">
+		<div class="entry-content">
+			<div class="wp-block-columns columns alignwide" style="margin-top: 0;">
+				{{ $thisTitle := .Title }}
+				{{ range .Site.Data.planners }}
+					{{ if eq $thisTitle .title }}
+						<div class="column">
+							<div class="wp-block-group">
+									<img src="{{ index (.images) 0 }}">
+							</div>
+							<a class="heading-size-4" href="{{.link}}">Order on Amazon</a>
+						</div>
+					{{ end }}
+				{{end}}
+				<div class="column">
+					<div class="wp-block-group">
+						{{.Content}}
+					</div>
+				</div>
+			</div>
+			<div class="wp-block-columns columns alignwide">
+				{{ range .Site.Data.planners }}
+					{{ if eq $thisTitle .title }}
+						{{ if gt (len .images) 1 }}
+							<h3 class="alignfull">Other Images</h3>
+						{{end}}
+						{{ range $elem_index, $elem_val := .images }}
+							{{ if gt $elem_index 0 }}
+							<div class="column">
+							<img src="{{ $elem_val }}">
+							</div>
+							{{ end }}
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			</div>
+		</div><!-- .entry-content -->
+	</div><!-- .post-inner -->
+</article><!-- .post -->
+
+{{ end }}
