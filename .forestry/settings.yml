@@ -5,26 +5,36 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: data
-  label: Data
-  create: documents
-  match: "*"
-  new_doc_ext: json
-- type: directory
-  path: content
-  label: Pages
+  path: content/blog
+  label: Blog Posts
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: content/planners
   label: Planners
   create: all
   match: "*"
 - type: directory
-  path: content/blog
-  label: Blog Posts
-  create: all
+  path: data
+  label: Data
+  create: documents
   match: "*"
+  new_doc_ext: json
+- type: heading
+  label: Pages
+- type: document
+  path: content/about/_index.md
+  label: About
+  match: "**/*"
+- type: document
+  path: content/contact/_index.md
+  label: Contact
+  match: "**/*"
+- type: directory
+  path: content
+  label: All Pages
+  create: all
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
