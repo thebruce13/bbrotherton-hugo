@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: document
   path: data/planners.json
+  label: Planner
+  match: "**/*"
+- type: document
+  path: data/planners.json
   label: Planners
 upload_dir: exampleSite/static/images
 public_path: "/images"
