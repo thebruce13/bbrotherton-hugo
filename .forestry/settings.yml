@@ -4,13 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: data/planners.json
-  label: Planner
-  match: "**/*"
-- type: document
-  path: data/planners.json
+- type: directory
+  path: data
   label: Planners
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
