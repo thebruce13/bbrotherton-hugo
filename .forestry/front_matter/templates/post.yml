@@ -30,3 +30,5 @@ fields:
   name: description
   label: description
   description: Meta description
+pages:
+- content/blog/write-that-blog.md
