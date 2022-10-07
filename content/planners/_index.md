@@ -3,6 +3,6 @@ title: Planners
 description: My personal planners I sell through Amazon.
 menu:
   main:
-    weight: 3
+    weight: 2
 
 ---

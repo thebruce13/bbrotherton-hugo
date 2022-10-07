@@ -17,7 +17,7 @@ weight = 4
 [[menu.desktop]]
 URL = "https://www.teepublic.com/user/thebruce13"
 name = "T-Shirts"
-weight = 2
+weight = 3
 [[menu.desktop]]
 URL = "blog"
 name = "Blog"
@@ -41,7 +41,7 @@ weight = 6
 [[menu.main]]
 name = "T-shirts"
 url = "https://www.teepublic.com/user/thebruce13"
-weight = 2
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
