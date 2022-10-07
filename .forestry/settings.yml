@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/planners.json
   label: Planners
-  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
