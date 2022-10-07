@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/blog
+  path: content/blog
   label: Post
   create: documents
   match: "**/*"
@@ -16,17 +16,17 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: exampleSite/content/about
+  path: content/about
   label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/contact
+  path: content/contact
   label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content
+  path: content
   label: All Pages
   create: all
   match: "**/*"
@@ -38,7 +38,7 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
