@@ -4,16 +4,28 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Blog Post
 - type: directory
   path: content/blog
+<<<<<<< HEAD
   label: Post
+=======
+  label: Blog Posts
+  create: all
+  match: "*"
+- type: directory
+  path: content/planners
+  label: Planners
+  create: all
+  match: "*"
+- type: directory
+  path: data
+  label: Data
+>>>>>>> d491330cf8345077021b0ab496a38299477d0cc9
   create: documents
-  match: "**/*"
-  templates:
-  - post
+  match: "*"
+  new_doc_ext: json
 - type: heading
+<<<<<<< HEAD
   label: Others Pages
 - type: directory
   path: content/about
@@ -22,14 +34,21 @@ sections:
   match: "*"
 - type: directory
   path: content/contact
+=======
+  label: Pages
+- type: document
+  path: content/about/_index.md
+  label: About
+- type: document
+  path: content/contact/_index.md
+>>>>>>> d491330cf8345077021b0ab496a38299477d0cc9
   label: Contact
-  create: none
-  match: "*"
 - type: directory
   path: content
   label: All Pages
   create: all
   match: "**/*"
+<<<<<<< HEAD
 - type: heading
   label: Configuration
 - type: directory
@@ -38,6 +57,8 @@ sections:
   create: all
   match: "*.toml"
   new_doc_ext: toml
+=======
+>>>>>>> d491330cf8345077021b0ab496a38299477d0cc9
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

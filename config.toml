@@ -11,37 +11,37 @@ title = "Bruce Brotherton's Blog"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
-URL = "blog"
-name = "Blog"
-weight = "0"
+URL = "contact"
+name = "Contact"
+weight = 4
 [[menu.desktop]]
 URL = "https://www.teepublic.com/user/thebruce13"
 name = "T-Shirts"
-weight = "0"
+weight = 3
 [[menu.desktop]]
-URL = "contact"
-name = "Contact"
-weight = 1
-[[menu.main]]
-name = "T-shirts"
-url = "https://www.teepublic.com/user/thebruce13"
-weight = 2
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-[[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 4
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 3
+weight = 1
 [[menu.main]]
 URL = "/"
 name = "Home"
 weight = 1
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 4
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 5
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 6
+[[menu.main]]
+name = "T-shirts"
+url = "https://www.teepublic.com/user/thebruce13"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
