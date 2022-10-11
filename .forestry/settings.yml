@@ -37,6 +37,7 @@ sections:
   label: Configuration
   create: all
   match: "*.toml"
+  exclude: netlify.toml
   new_doc_ext: toml
 upload_dir: static/images
 public_path: "/images"
