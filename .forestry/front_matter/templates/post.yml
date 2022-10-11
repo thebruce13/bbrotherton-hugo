@@ -31,4 +31,21 @@ fields:
   label: description
   description: Meta description
 pages:
-- content/blog/write-that-blog.md
+- content/blog/a-journey-begins.md
+- content/blog/box-model-borders.md
+- content/blog/box-model-content.md
+- content/blog/box-model-inline-and-block-elements.md
+- content/blog/box-model-padding-and-margin.md
+- content/blog/box-model.md
+- content/blog/css-inherit-property.md
+- content/blog/css-regions.md
+- content/blog/going-linux.md
+- content/blog/hyphens-on-the-web.md
+- content/blog/my-bullet-journal-and-me.md
+- content/blog/my-journey-through-tech.md
+- content/blog/snapchat-filters.md
+- content/blog/the-story-of-a-backpack.md
+- content/blog/transition-end-event-listener.md
+- content/blog/transitions-and-event-listeners.md
+- content/blog/will-my-phone-replace-my-comptuer.md
+- content/blog/you-re-padding-all-wrong.md
