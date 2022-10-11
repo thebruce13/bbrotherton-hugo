@@ -6485,3 +6485,7 @@ a.to-the-top>* {
 		max-width: 50%;
 	}
 }
+
+.align-center {
+	margin: 0 auto;
+}
