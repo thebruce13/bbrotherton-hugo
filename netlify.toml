@@ -1,10 +1,6 @@
 [build]
   publish = "public"
-<<<<<<< HEAD
-  command = "hugo --gc --themesDir ../.."
-=======
   command = "hugo"
->>>>>>> d491330cf8345077021b0ab496a38299477d0cc9
   
 [build.environment]
   HUGO_VERSION = "0.69.0"
