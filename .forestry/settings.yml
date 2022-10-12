@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/planners.json
   label: Planners
-  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
