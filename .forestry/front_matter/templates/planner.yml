@@ -6,5 +6,21 @@ fields:
   name: title
   label: title
 - type: text
-  name: description
-  label: description
+  name: short_description
+  label: short description
+- name: amazon_link
+  type: text
+  config:
+    required: false
+  label: Amazon link
+  description: Link to the planner on Amazon
+- name: featured_photo
+  type: file
+  config:
+    maxSize: 64
+  label: featured photo
+  description: The main photo for listing and header image.
+- name: additional_photos
+  type: image_gallery
+  config: {}
+  label: additional photos
