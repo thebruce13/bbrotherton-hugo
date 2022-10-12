@@ -5,10 +5,10 @@ short_description: A planner that lets you track your mood as a firearm!
 amazon_link: https://www.amazon.com/dp/B0BGSF6LCY
 featured_photo: "/images/book-render-guns.png"
 additional_photos:
+- "/images/gun-cover.jpg"
+- "/images/gun-inside.jpg"
 - "/images/firearm-page-1.png"
 - "/images/firearm-page-2.png"
-- "/images/gun-inside.jpg"
-- "/images/gun-cover.jpg"
 
 ---
 A planner that lets you track your mood as a firearm featuring:
