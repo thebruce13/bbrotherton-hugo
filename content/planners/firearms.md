@@ -1,10 +1,14 @@
 ---
 title: Firearms Planner
 description: My personal planners I sell through Amazon.
-short_description: ''
-amazon_link: ''
-featured_photo: ''
-additional_photos: []
+short_description: A planner that lets you track your mood as a firearm!
+amazon_link: https://www.amazon.com/dp/B0BGSF6LCY
+featured_photo: "/images/book-render-guns.png"
+additional_photos:
+- "/images/firearm-page-1.png"
+- "/images/firearm-page-2.png"
+- "/images/gun-inside.jpg"
+- "/images/gun-cover.jpg"
 
 ---
 A planner that lets you track your mood as a firearm featuring:
