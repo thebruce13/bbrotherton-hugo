@@ -24,7 +24,7 @@
       {{ with .Site.Params.blog.heading }}
       <div class="wp-block-group alignwide">
         <div class="wp-block-group__inner-container">
-          <h2 class="alignfull has-text-align-center">{{ . | markdownify }}</h2>
+          <h2 class="alignfull has-text-aligncenter">{{ . | markdownify }}</h2>
         </div>
       </div>
       {{ end }}
@@ -43,7 +43,7 @@
           </div>
         </div>
         {{ end }}
-        <a href="/blog/" class="button align-center"> More Blogs</a>
+        <a href="/blog/" class="button aligncenter"> More Blogs</a>
       </div>
 
       {{ if .Site.Params.call_to_action.enable }}

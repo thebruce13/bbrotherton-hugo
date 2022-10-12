@@ -15,7 +15,7 @@
 					{{ if eq $thisTitle .title }}
 						<div class="column">
 							<div class="wp-block-group">
-									<img src="{{ index (.images) 0 }}">
+									<img src="{{ index (.images) 0 }}" alt="Product shot of planner">
 							</div>
 							<a class="heading-size-4" href="{{.link}}">Order on Amazon</a>
 						</div>
@@ -36,7 +36,7 @@
 						{{ range $elem_index, $elem_val := .images }}
 							{{ if gt $elem_index 0 }}
 							<div class="column">
-							<img src="{{ $elem_val }}">
+								<img class="aligncenter" src="{{ $elem_val }}" alt="">
 							</div>
 							{{ end }}
 						{{ end }}

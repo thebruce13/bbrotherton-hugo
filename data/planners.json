@@ -3,19 +3,19 @@
   "firearms": {
     "title": "Firearms Planner",
     "link": "https://www.amazon.com/dp/B0BGSF6LCY",
-    "images": ["/images/book-render-guns.png","/images/firearm-page-1.png","/images/firearm-page-2.png"],
+    "images": ["/images/book-render-guns.png","/images/firearm-page-1.png","/images/firearm-page-2.png","/images/gun-cover.jpg","/images/gun-inside.jpg"],
     "description": "A planner that lets you track your mood as a firearm!"
   },
   "adventure-color": {
     "title": "Adventure Log [Color]",
     "link": "https://www.amazon.com/dp/B0BDXQNLHD",
-    "images": ["/images/book-render-adventure.jpg"],
+    "images": ["/images/book-render-adventure.jpg","/images/adventure-cover.jpg"],
     "description": "A colored planner to track your HP, Mana, and Quests"
   },
   "adventure-black-white": {
     "title": "Adventure Log [Black & White]",
     "link": "https://www.amazon.com/dp/B0BDXRHQQ3",
-    "images": ["/images/book-render-adventure-bw.jpg"],
+    "images": ["/images/book-render-adventure-bw.jpg","/images/adventure-cover.jpg","/images/adventure-inside.jpg"],
     "description": "A black & white planner to track your HP, Mana, and Quests"
   }
 }

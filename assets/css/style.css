@@ -3620,6 +3620,11 @@ figure.wp-block-table.is-style-stripes {
 	max-width: 100%;
 }
 
+.align-center {
+	display: block;
+	margin: 0 auto;
+}
+
 /* Wide */
 
 .alignwide {
@@ -6484,8 +6489,4 @@ a.to-the-top>* {
 		flex: 0 0 50%;
 		max-width: 50%;
 	}
-}
-
-.align-center {
-	margin: 0 auto;
 }
