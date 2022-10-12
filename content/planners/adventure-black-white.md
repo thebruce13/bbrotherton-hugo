@@ -1,6 +1,11 @@
 ---
 title: Adventure Log [Black & White]
 description: My personal planners I sell through Amazon.
+short_description: ''
+amazon_link: ''
+featured_photo: ''
+additional_photos: []
+
 ---
 Feature packed daily planer in black and white:
 * Monitor your Water intake as Health Potions

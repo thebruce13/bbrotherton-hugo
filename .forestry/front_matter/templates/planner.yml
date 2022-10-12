@@ -25,5 +25,6 @@ fields:
   config: {}
   label: additional photos
 pages:
+- content/planners/adventure-black-white.md
 - content/planners/adventure-color.md
 - content/planners/firearms.md
