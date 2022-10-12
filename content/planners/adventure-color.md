@@ -1,10 +1,11 @@
 ---
 title: Adventure Log [Color]
 description: My personal planners I sell through Amazon.
-short_description: ''
-amazon_link: ''
-featured_photo: ''
-additional_photos: []
+short_description: A colored planner to track your HP, Mana, and Quests
+amazon_link: https://www.amazon.com/dp/B0BDXQNLHD
+featured_photo: "/images/book-render-adventure.jpg"
+additional_photos:
+- "/images/adventure-cover.jpg"
 
 ---
 Feature packed daily planer:
