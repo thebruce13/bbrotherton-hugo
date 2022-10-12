@@ -1,10 +1,12 @@
 ---
 title: Adventure Log [Black & White]
 description: My personal planners I sell through Amazon.
-short_description: ''
-amazon_link: ''
-featured_photo: ''
-additional_photos: []
+short_description: A black & white planner to track your HP, Mana, and Quests
+amazon_link: https://www.amazon.com/dp/B0BDXRHQQ3
+featured_photo: "/images/book-render-adventure-bw.jpg"
+additional_photos:
+- "/images/adventure-inside.jpg"
+- "/images/adventure-cover.jpg"
 
 ---
 Feature packed daily planer in black and white:
