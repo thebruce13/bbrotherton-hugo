@@ -24,15 +24,6 @@ fields:
   type: image_gallery
   config: {}
   label: additional photos
-- name: long_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Long description
 pages:
 - content/planners/adventure-black-white.md
 - content/planners/adventure-color.md
