@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: data/planners.json
-  label: Planners
 - type: heading
   label: Blog Post
 - type: directory
@@ -16,6 +13,9 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: data/planners.json
+  label: Planners
 - type: heading
   label: Others Pages
 - type: directory
