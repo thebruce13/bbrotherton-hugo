@@ -24,3 +24,5 @@ fields:
   type: image_gallery
   config: {}
   label: additional photos
+pages:
+- content/planners/firearms.md

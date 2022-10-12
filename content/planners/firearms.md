@@ -1,6 +1,11 @@
 ---
 title: Firearms Planner
 description: My personal planners I sell through Amazon.
+short_description: ''
+amazon_link: ''
+featured_photo: ''
+additional_photos: []
+
 ---
 A planner that lets you track your mood as a firearm featuring:
 * A mood tracker where you pick what gun you feel like in the morning. Anyone who has played Call of Duty or used a firearm knows the temperament of a UZI verses a Sniper.
