@@ -13,9 +13,17 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: heading
+  label: Planners
 - type: document
   path: data/planners.json
   label: Planners
+- type: directory
+  path: content/planners
+  label: Planner Content
+  create: all
+  match: "*"
+  exclude: _index.md
 - type: heading
   label: Others Pages
 - type: directory
