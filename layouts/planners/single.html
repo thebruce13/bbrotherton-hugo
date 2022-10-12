@@ -10,38 +10,25 @@
 	<div class="post-inner thin">
 		<div class="entry-content">
 			<div class="wp-block-columns columns alignwide" style="margin-top: 0;">
-				{{ $thisTitle := .Title }}
-				{{ range .Site.Data.planners }}
-					{{ if eq $thisTitle .title }}
 						<div class="column">
 							<div class="wp-block-group">
-									<img src="{{ index (.images) 0 }}" alt="Product shot of planner">
+									<img src="{{ .Params.featured_photo }}" alt="Product shot of planner">
 							</div>
-							<a class="heading-size-4" href="{{.link}}">Order on Amazon</a>
+							<a class="heading-size-4" href="{{ .Params.amazon_link }}">Order on Amazon</a>
 						</div>
-					{{ end }}
-				{{end}}
 				<div class="column">
 					<div class="wp-block-group">
-						{{.Content}}
+						{{ .Params.long_description }}
 					</div>
 				</div>
 			</div>
 			<div class="wp-block-columns columns alignwide">
-				{{ range .Site.Data.planners }}
-					{{ if eq $thisTitle .title }}
-						{{ if gt (len .images) 1 }}
-							<h3 class="alignfull">Other Images</h3>
-						{{end}}
-						{{ range $elem_index, $elem_val := .images }}
-							{{ if gt $elem_index 0 }}
+						<h3 class="alignfull">Other Images</h3>
+						{{ range .Params.additional_photos }}
 							<div class="column">
-								<img class="aligncenter" src="{{ $elem_val }}" alt="">
+								<img class="aligncenter" src="{{ . }}" alt="">
 							</div>
-							{{ end }}
-						{{ end }}
-					{{ end }}
-				{{ end }}
+						{{end}}
 			</div>
 		</div><!-- .entry-content -->
 	</div><!-- .post-inner -->
