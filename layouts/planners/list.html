@@ -9,24 +9,21 @@
 
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet" type="text/css"></style>
 
-	<div class="post-inner thin">
+	<div class="">
 		<div class="entry-content">
 			{{ .Content }}
 			<div class="wp-block-columns columns alignwide">
-				{{ range $slug, $data := (.Site.Data.planners ) }}
+				{{ range .Pages }}
 					<div class="column">
 						<div class="wp-block-group">
-							{{ $plannerURL := print "/planners/" $slug }}
-							<a href="{{ $plannerURL | absURL }}">
-								<h3>{{.title}}</h3>
+							<a href="{{ .Permalink }}">
+								<h3>{{.Title}}</h3>
 								<div class="slides-container">
-									{{ range first 1 .images }}
-												<img src="{{ . }}">
-									{{ end }}
+									<img src="{{ .Params.featured_photo }}">
 								</div>
 							</a>
 						</div>
-						<p>{{.description}}</p>
+						<p>{{.Params.short_description}}</p>
 				</div>
 				{{end}}
 			</div>

@@ -7,28 +7,30 @@
 		</div><!-- .entry-header-inner -->
 	</header><!-- .entry-header -->
 
-	<div class="post-inner thin">
+	<div class="">
 		<div class="entry-content">
 			<div class="wp-block-columns columns alignwide" style="margin-top: 0;">
 						<div class="column">
 							<div class="wp-block-group">
 									<img src="{{ .Params.featured_photo }}" alt="Product shot of planner">
 							</div>
-							<a class="heading-size-4" href="{{ .Params.amazon_link }}">Order on Amazon</a>
 						</div>
 				<div class="column">
 					<div class="wp-block-group">
+						<a class="heading-size-4" href="{{ .Params.amazon_link }}">Order on Amazon</a>
 						{{ .Content }}
 					</div>
 				</div>
 			</div>
 			<div class="wp-block-columns columns alignwide">
-						<h3 class="alignfull">Other Images</h3>
-						{{ range .Params.additional_photos }}
-							<div class="column">
-								<img class="aligncenter" src="{{ . }}" alt="">
-							</div>
-						{{end}}
+				{{ if .Params.additional_photos }}
+					<h3 class="alignfull">Other Images</h3>
+					{{ range .Params.additional_photos }}
+						<div class="column">
+							<img class="aligncenter" src="{{ . }}" alt="">
+						</div>
+					{{end}}
+				{{end}}
 			</div>
 		</div><!-- .entry-content -->
 	</div><!-- .post-inner -->
