@@ -10,3 +10,9 @@
   to = "/blog/index.xml"
   status = 301
   force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/tshirts"
+  to = "https://www.teepublic.com/user/thebruce13"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
