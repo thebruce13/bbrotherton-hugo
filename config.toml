@@ -53,11 +53,11 @@ image = "/images/webpack-render-s.png"
 [params.blog]
 heading = "Posts from within my backpack. A random collection of thoughts and ideas."
 [params.call_to_action]
-button_label = "Buy me a coffee"
-button_url = "contact"
-content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
+button_label = "Buy me a ☕"
+button_url = "https://www.paypal.com/paypalme/brucebrotherton"
+content = "If you enjoy my content and want to help support me, I would be beyond grateful. "
 enable = true
-title = "Contact us for more information."
+title = "Want to help?"
 [params.footer]
 address = ""
 content = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everything I am into. Welcome."
