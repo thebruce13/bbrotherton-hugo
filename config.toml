@@ -53,10 +53,10 @@ image = "/images/webpack-render-s.png"
 [params.blog]
 heading = "Posts from within my backpack. A random collection of thoughts and ideas."
 [params.call_to_action]
-button_label = "Contact Us"
+button_label = "Buy me a coffee"
 button_url = "contact"
 content = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis"
-enable = false
+enable = true
 title = "Contact us for more information."
 [params.footer]
 address = ""
