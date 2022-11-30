@@ -16,3 +16,15 @@
   to = "https://www.teepublic.com/user/thebruce13"
   status = 301
   force = true # COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "/teepublic"
+  to = "https://www.teepublic.com/user/thebruce13"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "/redbubble"
+  to = "https://www.redbubble.com/people/thebruce13/shop?asc=u&ref=bmfbrocks"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
