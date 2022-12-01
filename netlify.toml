@@ -25,6 +25,6 @@
 
   [[redirects]]
   from = "/redbubble"
-  to = "https://www.redbubble.com/people/thebruce13/shop?asc=u&ref=bmfbrocks"
+  to = "https://thebruce13.redbubble.com/"
   status = 301
   force = true # COMMENT: ensure that we always redirect
