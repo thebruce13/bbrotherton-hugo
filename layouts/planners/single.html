@@ -17,9 +17,9 @@
 						</div>
 				<div class="column">
 					<div class="wp-block-group">
-						{{ if .Paramas.amazon_link }}
-							<a class="heading-size-4" href="{{ .Params.amazon_link }}">Order on Amazon</a>
-						{{ end }}
+						{{ if .Params.amazon_link }}
+						<a class="heading-size-4" href="{{ .Params.amazon_link }}">Order on Amazon</a>
+						{{end}}
 						{{ .Content }}
 					</div>
 				</div>
@@ -31,8 +31,8 @@
 						<div class="column">
 							<img class="aligncenter" src="{{ . }}" alt="">
 						</div>
-					{{ end }}
-				{{ end }}
+					{{end}}
+				{{end}}
 			</div>
 		</div><!-- .entry-content -->
 	</div><!-- .post-inner -->
