@@ -1,6 +1,6 @@
 +++
 additional_photos = ["/images/catholic-planner-page-1s.jpg", "/images/catholic-planner-page-2s.jpg"]
-amazon_link = ""
+amazon_link = "https://a.co/d/ekqkCTb"
 featured_photo = "/images/book-chruch-1-1.png"
 short_description = "A planner that has features to write down your prayer list, gratitude, and verse reflection."
 title = "Prayer Journal and Planner"
