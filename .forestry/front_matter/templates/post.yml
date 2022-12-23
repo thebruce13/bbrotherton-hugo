@@ -33,6 +33,7 @@ fields:
 pages:
 - content/blog/a-journey-begins.md
 - content/blog/backgrounds.md
+- content/blog/border-image.md
 - content/blog/box-model-borders.md
 - content/blog/box-model-content.md
 - content/blog/box-model-inline-and-block-elements.md
