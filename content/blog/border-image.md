@@ -7,6 +7,6 @@ draft = true
 image = ""
 product = ""
 tags = []
-title = "Border image "
+title = "Border Image "
 
 +++
