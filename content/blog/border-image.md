@@ -24,8 +24,8 @@ Here is an example of a border image that you might see in a Pokémon video game
 
 ![Pokemon Dialog Box - Pokemon Text Box Png, Transparent Png - 1491x461 PNG -  DLF.PT](https://www.dlf.pt/dfpng/middlepng/595-5951068_pokemon-dialog-box-pokemon-text-box-png-transparent.png)
 
-
-https://www.google.com/search?client=ms-android-samsung-rev2&source=android-browser&q=custom+dialog+frames+in+pokemon&tbm=isch&sa=X&ved=2ahUKEwidwrK7hZ79AhU9kIkEHeYeApoQ0pQJegQICBAB&biw=360&bih=627&dpr=3#imgrc=iO8BRBgdfHrszM&imgdii=k3N9sVEklOIqBM
+<!-- 
+https://www.google.com/search?client=ms-android-samsung-rev2&source=android-browser&q=custom+dialog+frames+in+pokemon&tbm=isch&sa=X&ved=2ahUKEwidwrK7hZ79AhU9kIkEHeYeApoQ0pQJegQICBAB&biw=360&bih=627&dpr=3#imgrc=iO8BRBgdfHrszM&imgdii=k3N9sVEklOIqBM -->
 
 
 And it would be pretty straightforward how to implement this in a border image. 
