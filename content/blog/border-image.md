@@ -14,6 +14,9 @@ Border-image is one of those attributes that I rarely reach for. Especially beca
 What in the world is with so many values? Why do I have to specify the width? How do I figure out what the slice should be? What is a slice even? 
 We'll cover all these things and more in this article. But really this all starts with the image part of border image. 
 
+**TL;DR**
+You can find all of my code pen examples inside [this collection at CodePen](https://codepen.io/collection/ExZrzg).
+
 ### Creating a proper image
 
 The border image is made out of essentially two parts. The corners and the sides.  The corners can either be created as terminating points or as connectors to the sides. Deciding what type of corners you want to use will likely impact what type of `border-image-repeat` you'll end up using. [MDN has a good graphic](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice) of what the image parts will look like while they talk about border-image-slices. 
