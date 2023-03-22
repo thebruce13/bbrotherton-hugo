@@ -37,7 +37,7 @@ More complicated border images like that of Chrono Cross.
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="dyqYBbE" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="dyqYBbE" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/dyqYBbE">
   Chrono Cross SkullDuggery QAD</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -102,7 +102,7 @@ Notice all the numbers are unitless, that is because we are working with a bitma
 **SVG Images and Slices**
 It is possible to put SVGs into image-backgrounds. Because we set the width and height on an SVG, how we definitions our “pixels” in slices work just the same way as it would a bitmap image. Keep in mind that if you change the width and height so will your slices. Heck I’m this case I could have used CSS variables even and adjusted how each of the SVG rectangles were made to have further control.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="rNZYmxa" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="rNZYmxa" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/rNZYmxa">
   SVG Border Image</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -176,7 +176,7 @@ An alternative would to be to set the `border-image-width` and that will allow m
 
 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="RwYZBOG" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="RwYZBOG" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/RwYZBOG">
   Pokémon Border Image</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -187,7 +187,7 @@ An alternative would to be to set the `border-image-width` and that will allow m
 
 There is a caveat to using animated GIFs as border-images, you can only have the corners being animated. This could still produce some cool effects. For example - the skullduggery border we showed earlier could have the big skulls open and close their mouths. But since I’m not an artist with a lot of time. I put together this Mario Star example for you to check out.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="rNZpLqY" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="rNZpLqY" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/rNZpLqY">
   Mario Border Image</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -206,7 +206,7 @@ The thing to note here is that I set the border-width: top: 0 right: 5rem bottom
 
 This was the original reason I reached for border-image in 2014 and was boggled by the syntax of it. I wanted to have a line that stretches along the bottom of a Nav but it was a bunch of curly Qs. At the time it was just a bunch of trial and error to try and get it working and I never wanted to touch border-image again.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="NWLyQzb" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="NWLyQzb" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/NWLyQzb">
   Doodle Border Image</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -229,7 +229,7 @@ And honestly, Chris Coyer wrote a great post about [gradients in border images](
 
 Still I was curious about some cool applications for this so here is a codpen to play around with. I went ahead and tried to recreate the SVG example earlier using a conic-gradient. Then I also noticed that if you try to use a radial gradient you will need the border-width and the border-image-slice to be the same otherwise you’ll get some funky results. Similarly, with the `repeating-linear-gradient` you’ll want it to repeat at the width of your border as well as having the slice that size to keep things from going awry. 
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-default-tab="result" data-slug-hash="MWqBqWd" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="MWqBqWd" data-user="brucebrotherton" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/brucebrotherton/pen/MWqBqWd">
   Gradient Border Images</a> by Bruce Brotherton (<a href="https://codepen.io/brucebrotherton">@brucebrotherton</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
