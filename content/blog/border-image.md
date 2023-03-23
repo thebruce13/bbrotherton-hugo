@@ -9,7 +9,7 @@ tags = ["Css", "Advanced"]
 title = "Border Image"
 
 +++
-Border-image is one of those attributes that I rarely reach for. Especially because of how convoluted the syntax is. I mean look at this. 
+Border-image is one of those attributes that I rarely reach for because of how convoluted the syntax is. I mean look at this. 
 `border-image: url(…) 30 30 / blah blah blah`
 What in the world is with so many values? Why do I have to specify the width? How do I figure out what the slice should be? What is a slice even? 
 We'll cover all these things and more in this article. But really this all starts with the image part of border image. 
