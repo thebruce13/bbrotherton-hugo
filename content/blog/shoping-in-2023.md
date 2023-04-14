@@ -5,7 +5,7 @@ date = 2023-04-1411:30:00Z
 description = "An idea on how to leverage the algorithim to help you research what you are shopping for."
 image = "/images/robo-shopping.jpg"
 tags = ["rambling"]
-title = "Shoping in 2023"
+title = "Shopping in 2023"
 
 +++
 
