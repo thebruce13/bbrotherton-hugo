@@ -9,8 +9,6 @@ title = "Shopping in 2023"
 
 +++
 
-![](https://paper-attachments.dropboxusercontent.com/s_420FF861FE6444D0F6B5EE969F60517535FCA69232299F77FBB0549B6655C5BD_1681494289602_Robot_shopping_Background.jpg)
-
 ## Shoe Shopping
 
 Recently I saw an add for a shoe brand on Instagram I was intrigued by it and clicked. After that my feed was flooded with similar types of shoes and I realized this is a powerful way for consumers to use the algorithm to their advantage. 
