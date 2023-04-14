@@ -1,7 +1,7 @@
 +++
 author = ["Bruce"]
 categories = ["Rambling", "Productiviy"]
-date = 2023-04-1411:30:00Z
+date = 2023-04-14T11:30:00Z
 description = "An idea on how to leverage the algorithim to help you research what you are shopping for."
 image = "/images/robo-shopping.jpg"
 tags = ["rambling"]
