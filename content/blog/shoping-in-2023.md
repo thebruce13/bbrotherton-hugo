@@ -35,5 +35,5 @@ As someone who is somewhat carful with my data and weary of "the algorithm" I ha
 
 ### Update 4/18
 The phone case came in and I couldn't be happier. This is the [phone case I ordered](https://www.amazon.com/dp/B08NV3P241?ref=ppx_yo2ov_dt_b_product_details&th=1). 
-![red phone front showing spiderman falling on the screen.](/images/phone-front.png)
-![red phone back showing a multitude of icons.](/images/phone-back.png)
+![red phone front showing spiderman falling on the screen.](/images/phone-front.jpg)
+![red phone back showing a multitude of icons.](/images/phone-back.jpg)
