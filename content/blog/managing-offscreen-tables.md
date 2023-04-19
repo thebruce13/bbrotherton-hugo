@@ -327,5 +327,5 @@ offScreenScrollers.forEach( table => {
 
 That's all for now, I hope this gets your tables in order so people with phones know about all your awesome table content that is off the screen. I'd suggest you take a look at the [codepen provided](https://codepen.io/brucebrotherton/pen/VwvPvaW) to see it in action.
 
-### Update 4/19
+**Update 4/19/2023**
 I discovered that using the transform property instead of the left will remove the lag that seemed to happen when interacting with the element. The code is updated on this page to use that now.
