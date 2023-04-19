@@ -31,7 +31,7 @@ I used to keep the Instagram app off my phone to avoid it stalking me, but now t
 
 ## In Conclusion
 
-As someone who is somewhat carful with my data and weary of "the algorithm" I have always been on the defense trying to ignore all ads that came at me from my feeds. Now, I plan to use my search queries and shopping habits to have the algorithm work for me rather than at me. 
+As someone who is somewhat carful with my data and weary of "the algorithm" I have always been on the defense trying to ignore all ads that came at me from my feeds. Now, I plan to use my search queries and shopping habits to have the algorithm work for me rather than at me. If you are in the mood for shopping, I sell print on demands products on [TeePublic](https://www.brucebrotherton/tshirts) and [RedBubble](https://www.brucebrotherton.com/redbubble), check em out! Thats all for now.
 
 **Update 4/18/2023**
 The phone case came in and I couldn't be happier. This is the [phone case I ordered](https://www.amazon.com/dp/B08NV3P241?ref=ppx_yo2ov_dt_b_product_details&th=1). 
