@@ -184,11 +184,11 @@ And that is just about it. We can now zoom from left to right with the shadows o
 
 We made it 105vw so it will be larger than the viewport so no matter how fast the user moves that scrollbar around it will still be darkened. The cool thing is this adds a little bit of fun to the page because it gives the window a little bit of overlapping action.
 
-Now I personally don't setting a left value on the the HTML so I would swap that with a CSS variable. `--left` seems appropriate. This will change three lines on our CSS and our JS.
+Now I personally don't like setting a transform value in the the HTML style tag so I would swap that with a CSS variable. `--left` seems appropriate. This will change these lines on our CSS and our JS.
 
 ```css
 .offscreen-scroll::after{
-  left: var(--left, 0);
+  transform: translate( var(--left,0),-50%);
 }
 ```
 
@@ -224,9 +224,9 @@ Here is the CSS all put together.
 	content: '';
 	position: absolute;
 	top: 50%;
-	left: var(--left, 0);
+	left: 0;
 	z-index: 1;
-	transform: translateY(-50%);
+	transform: translate( var(--left,0),-50%);
 	width: var(--maxwidth, 100%);
 	height: 200%;
 	pointer-events: none;
@@ -326,3 +326,6 @@ offScreenScrollers.forEach( table => {
 ```
 
 That's all for now, I hope this gets your tables in order so people with phones know about all your awesome table content that is off the screen. I'd suggest you take a look at the [codepen provided](https://codepen.io/brucebrotherton/pen/VwvPvaW) to see it in action.
+
+### Update 4/19
+I discovered that using the transform property instead of the left will remove the lag that seemed to happen when interacting with the element. The code is updated on this page to use that now.
