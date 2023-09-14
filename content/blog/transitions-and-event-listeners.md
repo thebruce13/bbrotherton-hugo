@@ -15,7 +15,7 @@ title = "Transitions and Event Listeners"
 
 This event listener does exactly what it says. It listens for a CSS transition to end and then fires a function.
 
-    Item.addEventListener(‘transitionEnd’, function({ … });
+    Item.addEventListener(‘transitionend’, function({ … });
 
 If you would like a little more info and some use cases. Read on.
 
@@ -116,13 +116,13 @@ Now we need a class that will toggle the display attribute for us to apply when 
 Now with our JavaScript we listen for the transition to end and apply our house class.
 
     const nav = document.qurrySelector('nav');
-    nav.addEventListener('transitionEnd', function(){
+    nav.addEventListener('transitionend', function(){
       this.classList.add('hide');
     });
 
 Seperate from this we will need our click event that will add and remove the active class. When we are showing the nav we can just remove the hide class and then apply the active class. This works because JavaScript works in a linear fashion and the display is taken care of AND THEN the animation is applied. When we work on reverse, it will break things.
 
-I'm sure you were thinking that we could use transitionStart event listener, and we could it just isn't necessary in this case.
+I'm sure you were thinking that we could use transitionstart event listener, and we could it just isn't necessary in this case.
 
 ### For performance
 
@@ -140,8 +140,8 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-The browser was having a hard time rendering the nav with a blurred background as it slid in. So I attached a transitionEnd listener to it and applied the blur when it was fully in frame.
+The browser was having a hard time rendering the nav with a blurred background as it slid in. So I attached a transitionend listener to it and applied the blur when it was fully in frame.
 
 ## Conclusion
 
-So we touched on transitions and the transitionEnd event listener. And now you know probably a lot more than you needed to fit the timing function. This is one of my favorite things in CSS because it makes the page feel more alive I hope it helps you in you web dev journey. That's all for now.
+So we touched on transitions and the transitionend event listener. And now you know probably a lot more than you needed to fit the timing function. This is one of my favorite things in CSS because it makes the page feel more alive I hope it helps you in you web dev journey. That's all for now.
