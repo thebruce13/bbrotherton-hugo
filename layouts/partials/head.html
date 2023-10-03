@@ -34,7 +34,12 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  {{ "<!--Fonts-->" | safeHTML }}
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
   <script>
 		document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
   </script>

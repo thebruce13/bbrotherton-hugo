@@ -52,7 +52,13 @@ with others.
 
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
-
+:root {
+	--primary: #000;
+	--secondary: #000;
+	--background: #000;
+	--subtle-background-color: #000;
+	--accent: #000;
+}
 
 html,
 body {
@@ -111,7 +117,7 @@ blockquote::after {
 
 /*	1. Document Setup
 /* -------------------------------------------------------------------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
 	font-size: 62.5%;
@@ -130,18 +136,20 @@ body {
 	box-sizing: border-box;
 	color: #000;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Acme', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+	/* font-family: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; */
 	font-size: 1.8rem;
 	letter-spacing: -0.015em;
 	text-align: left;
 }
-
+/*
 @supports (font-variation-settings: normal) {
 
 	body {
 		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	}
 }
-
+*/
 *,
 *::before,
 *::after {
@@ -3539,6 +3547,7 @@ figure.wp-block-table.is-style-stripes {
 
 .entry-content {
 	font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 	letter-spacing: normal;
 }
 
@@ -3555,6 +3564,7 @@ figure.wp-block-table.is-style-stripes {
 .entry-content .wp-caption-text,
 .entry-content .wp-block-file {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Acme', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 
 @supports (font-variation-settings: normal) {
@@ -3572,6 +3582,7 @@ figure.wp-block-table.is-style-stripes {
 	.entry-content .wp-caption-text,
 	.entry-content .wp-block-file {
 		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: 'Acme', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 	}
 }
 
