@@ -49,7 +49,7 @@ author = "Bruce Brotherton"
 description = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everyhing I am into."
 [params.banner]
 heading = "Bruce's Brackets"
-description="<p>Welcome to my blog. I am working on making content that helps developers understand CSS using practical examples and diving into the nitty-gritty of properties so we can all understand what is really going on when we set up values.</p><p>Along the way I’ll be talking about my personal interactions with tech and hopefully giving some guidance with my struggles and triumphs.</p><p>I am also a tinkerer with computer graphics so I hope to share my creations with that. Weather they are my images for my posts or new t-shirt designs that are up for sale.</p><p>That’s all for now, come along if you want to.</p>"
+description="<p>Hi, I'm Bruce Brotherton and welcome to my blog. I am working on making content that helps developers understand CSS using practical examples and diving into the nitty-gritty of properties so we can all understand what is really going on when we set up values.</p><p>Along the way I’ll be talking about my personal interactions with tech and hopefully giving some guidance with my struggles and triumphs.</p><p>I am also a tinkerer with computer graphics so I hope to share my creations with that. Weather they are my images for my posts or new t-shirt designs that are up for sale.</p><p>That’s all for now, come along if you want to.</p>"
 image = "/images/webpack-render-s.png"
 [params.blog]
 heading = "Posts that dive into CSS, Websites, and Technology"
