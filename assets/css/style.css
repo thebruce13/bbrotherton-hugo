@@ -53,11 +53,16 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 :root {
-	--primary: #000;
-	--secondary: #000;
-	--background: #000;
-	--subtle-background-color: #000;
-	--accent: #000;
+	--dark-blue: #023047;
+	--gold: #ffb703;
+	--orange: #fb8500;
+	--light-blue: #219ebc;
+	--sky: #8ecae6;
+	--white: #fafafa;
+	--black: #0a0a0a;
+	--subtle-background-color: #90a3ac;
+	--accent: var(--orange);
+	--acme-letter-space: 0.07rem;
 }
 
 html,
@@ -132,14 +137,15 @@ html {
 }
 
 body {
-	background: #f5efe0;
+	background: var(--white);
 	box-sizing: border-box;
-	color: #000;
+	color: var(--black);
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-family: 'Acme', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 	/* font-family: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; */
 	font-size: 1.8rem;
 	letter-spacing: -0.015em;
+	letter-spacing: var(--acme-letter-space);
 	text-align: left;
 }
 /*
@@ -317,6 +323,7 @@ h6,
 	font-variant-numeric: lining-nums;
 	font-weight: 700;
 	letter-spacing: -0.0415625em;
+	letter-spacing: var(--acme-letter-space);
 	line-height: 1.25;
 	margin: 3.5rem 0 2rem;
 }
@@ -466,7 +473,7 @@ hr.styled-separator::after {
 }
 
 a {
-	color: #cd2653;
+	color: var(--dark-blue);
 	text-decoration: underline;
 }
 
@@ -847,10 +854,10 @@ input[type="reset"],
 input[type="submit"] {
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background: #cd2653;
+	background: var(--gold);
 	border: none;
-	border-radius: 0;
-	color: #fff;
+	border-radius: 5px;
+	color: var(--dark-blue);
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1.5rem;
@@ -864,6 +871,10 @@ input[type="submit"] {
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: opacity 0.15s linear;
+}
+
+.wp-block-button__link:visited {
+	color: var(--dark-blue);
 }
 
 button:focus,
@@ -882,6 +893,8 @@ input[type="reset"]:focus,
 input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:hover {
+	color: var(--gold);
+	background-color: var(--dark-blue);
 	text-decoration: underline;
 }
 
@@ -1316,7 +1329,7 @@ ul.social-icons li {
 
 .social-icons a {
 	align-items: center;
-	background: #cd2653;
+	background: var(--dark-blue);
 	border-radius: 50%;
 	color: #fff;
 	display: flex;
@@ -2414,7 +2427,7 @@ body:not(.singular) main>article:first-of-type {
 /* Post Header ------------------------------- */
 
 .singular .entry-header {
-	background-color: #fff;
+	background-color: var(--dark-blue);
 	padding: 4rem 0;
 }
 
@@ -2447,6 +2460,7 @@ body:not(.singular) main>article:first-of-type {
 
 h1.entry-title,
 h2.entry-title {
+	color: var(--orange);
 	margin: 0;
 }
 
@@ -2515,6 +2529,7 @@ h2.entry-title {
 	align-items: center;
 	display: flex;
 	flex-wrap: nowrap;
+	color: var(--white);
 }
 
 .post-meta .meta-icon {
@@ -2584,7 +2599,7 @@ h2.entry-title {
 }
 
 .singular .featured-media::before {
-	background: #fff;
+	background: var(--dark-blue);
 	content: "";
 	display: block;
 	position: absolute;
@@ -2791,7 +2806,24 @@ h2.entry-title {
 }
 
 :root .has-background-color {
-	color: #f5efe0;
+	background-color: var(--dark-blue);
+	color: var(--white);
+}
+
+:root .has-background-color  h2 {
+	color: var(--gold);
+}
+
+:root .has-background-color .wp-block-button a{
+	color: var(--dark-blue);
+	border-style: solid;
+	border-color: transparent;
+}
+
+:root .has-background-color .wp-block-button a:hover,
+:root .has-background-color .wp-block-button a:focus {
+	color: var(--gold);
+	border-color: gold;
 }
 
 :root .has-background-background-color {
@@ -3036,7 +3068,7 @@ h2.entry-title {
 }
 
 .wp-block-button.is-style-outline {
-	color: #cd2653;
+	color: var(--dark-blue);
 }
 
 .is-style-outline .wp-block-button__link:not(.has-text-color) {
@@ -3565,6 +3597,8 @@ figure.wp-block-table.is-style-stripes {
 .entry-content .wp-block-file {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	font-family: 'Acme', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+	letter-spacing: var(--acme-letter-space);
+	color: var(--dark-blue);
 }
 
 @supports (font-variation-settings: normal) {
@@ -5107,6 +5141,7 @@ a.to-the-top>* {
 	}
 
 	.entry-categories a {
+		color: var(--gold);
 		font-size: 1.5rem;
 		margin: 1rem 0 0 2rem;
 	}

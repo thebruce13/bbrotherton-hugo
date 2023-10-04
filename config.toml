@@ -7,7 +7,7 @@ languageName = "En"
 paginate = "6"
 summaryLength = "10"
 theme = "bbrother"
-title = "Bruce Brotherton's Blog"
+title = "Bruce's Brackets"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.desktop]]
@@ -48,16 +48,17 @@ home = ["HTML", "RSS", "JSON"]
 author = "Bruce Brotherton"
 description = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everyhing I am into."
 [params.banner]
-heading = "Bruce's Backpack"
+heading = "Bruce's Brackets"
+description="<p>Welcome to my blog. I am working on making content that helps developers understand CSS using practical examples and diving into the nitty-gritty of properties so we can all understand what is really going on when we set up values.</p><p>Along the way I’ll be talking about my personal interactions with tech and hopefully giving some guidance with my struggles and triumphs.</p><p>I am also a tinkerer with computer graphics so I hope to share my creations with that. Weather they are my images for my posts or new t-shirt designs that are up for sale.</p><p>That’s all for now, come along if you want to.</p>"
 image = "/images/webpack-render-s.png"
 [params.blog]
-heading = "Posts from within my backpack. A random collection of thoughts and ideas."
+heading = "Posts that dive into CSS, Websites, and Technology"
 [params.call_to_action]
-button_label = "Buy me a ☕"
+button_label = "Show your support by buying me one. ☕"
 button_url = "https://www.paypal.com/paypalme/brucebrotherton"
-content = "If you enjoy my content and want to help support me, I would be beyond grateful. "
+title = "Like what I’m doing here?"
+content = "<p>I'm working hard to create content that is informative and engaging for you - and I wouldn't say no to a (virtual) cup of coffee!</p>"
 enable = true
-title = "Want to help?"
 [params.footer]
 address = ""
 content = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everything I am into. Welcome."

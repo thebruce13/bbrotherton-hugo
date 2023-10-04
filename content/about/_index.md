@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Bruce Brotherton
 description: A introduction to who Bruce Brotherton is.
 
 ---
