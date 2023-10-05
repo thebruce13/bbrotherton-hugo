@@ -62,7 +62,7 @@ enable = true
 [params.footer]
 address = ""
 content = "A blog about Web Development, 3D Graphics, Trying to write a novel, and maybe making a video game. Its anything and everything I am into. Welcome."
-copyright = "Copyright &copy; 2022"
+copyright = "Copyright &copy; 2023"
 hours = ""
 title = "About This Site"
 [params.gallery]
