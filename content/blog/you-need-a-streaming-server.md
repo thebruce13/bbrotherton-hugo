@@ -94,7 +94,7 @@ The biggest surprise for me, however, was having access to all of my old music. 
 ## Sidenote about VuDu
 
 I wanted to take a second to talk about buying movies from VuDu or Google Movies or Apple TV. I would vote yes 100 times. I love the library I’ve built on VuDu it’s been a lifesaver. Sadly, not everything is available on there and some of the stuff I have physically isn’t available anywhere. Say for instance you had an original trilogy of Star Wars that had Sebastian Shaw as a force ghost, you can’t buy that now. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uaqPK6s77hY?si=5mr6Pk6-ErKH9YpP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 I have all the extended edition of Lord of the Rings on VuDu and I don’t plan to ever move that onto my own streaming server. Plus, these services allow you to download shows as you wish and have better encoding and quality throttling as you need it than my streaming server does. And it’s great that a lot of physical copies of movies come with a digital code too. Still, licensing is a thing and could potentially rip those away from me. So, yeah. I love it a lot more than a streaming service, but it can get pricey and isn’t guaranteed. With your own server you control the files and can add to it as you see fit with a community’s help you likely have access to more than you could watch in a lifetime.
  
 So get in there and get your own family streaming service a go. It may be enough to drop at least two services off your bill. Good luck! That’s all for now.
