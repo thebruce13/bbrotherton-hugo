@@ -56,8 +56,8 @@ Either way they are both solid options and I would suggest you look at them both
 
 Now that we’ve covered the hardware and software we need to fill our server with stuff. You are going to want to read the documentation about how to set up folders on your server to get the most out of them.
 
-- Here is a link on how to do it for Plex
-- and how to set them up for Jellyfin.
+- [Here is a link on how to do it for Plex](https://support.plex.tv/articles/200288926-creating-libraries/)
+- [How to set them up for Jellyfin](https://jellyfin.org/docs/general/server/libraries/)
 
  
  My first content I got onto my server was from the Internet Archive where you can download episodes of Popeye among other shows.
