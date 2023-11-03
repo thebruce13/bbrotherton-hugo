@@ -80,7 +80,7 @@ This one is pretty straightforward you can do a url(…) or a gradient. Same as 
 
 If you aren't familiar with photoshop you might have never heard of slices. The only time I had to use them was when I had to chop up images so they were the right pixel size for HTML emails. 
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/5zoxhCaYbdVHoJkmpf" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/5zoxhCaYbdVHoJkmpf" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 
 This is the bread and butter of border images. Once you wrap your head around this you will be ready to make some excellent designs. 

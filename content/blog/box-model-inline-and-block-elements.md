@@ -43,7 +43,7 @@ For example, when you set something to `display: inline-flex` you are setting th
 
 Inline is named as such because it has the element stay inline with its neghboring content. Things like a span would render imperceptable to the user because it stays within the content.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/cirUel4KlD2Cfz3gUF"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -74,7 +74,7 @@ Full Disclosure, this is the old way of managing this - nowadays I'd be reaching
 
 Now that inline elements are wrapped up we can move on to block elements. They are called block elements because they make a whole new box to work on. It breaks the flow of the elements and will take up as much space as it can.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/1FZqAOn4hzGO4"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

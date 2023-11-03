@@ -70,7 +70,7 @@ And that will make sure that our text stays right where we want it inside the bo
 
 Border-box is the solution to using elements for layout. It makes setting attributes a lot more predictable and makes my brain hurt less when setting up things for websites.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/13FrpeVH09Zrb2"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

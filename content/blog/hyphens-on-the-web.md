@@ -31,7 +31,7 @@ There is a set place for words to hyphenate and based on your set language in th
 
 When I was in high school I always thought that when I wanted to use a hyphen at the end of a word, I could just slap one down and continue the word on the next line. It didn't matter to me if it was the first letter or the one just before the last, I needed to break the word up and I was running out of space. However, that just isn't how hyphens work.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/OMZRxGyZZ6fGo" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/OMZRxGyZZ6fGo" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 Now, for an in-depth look at when to use hyphens in your context I highly recommend [Tara McInnis' four part article](https://5catsproofing.com/she-had-gold-green-catlike-eyes-hyphenation-and-compound-adjectives/) about hyphens. However, we are particularly interested in her last entry, End of Line Hyphens. These are the only ones we can affect using CSS and they are the topic of discussion because we're trying to fix when words are too long for their container.
 
@@ -49,7 +49,7 @@ The first thing we need to set the language of the site, if this is missing the 
     // Set Language to German
     <html lang="de">
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/hvU6wNliMXsc" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/hvU6wNliMXsc" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 ### Hyphens have rules
 
@@ -113,7 +113,7 @@ p { word-break: break-word; }
 
 Now these two do the same thing, and actually word-break: break-word will override [overflow-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap) regardless of its value. Off the bat I'm going to tell you to use overflow-wrap simply because [word-break: break-word is deprecated](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break).
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/3o6wrASxYzLbE9JWE0"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

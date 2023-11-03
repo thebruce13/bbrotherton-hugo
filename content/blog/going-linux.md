@@ -19,7 +19,7 @@ First I tried to install [Pop_OS](https://pop.system76.com/) as it has been the 
 
 Then I thought it might have something to do with my UFIE boot or Secure Boot or Legacy boot. All these things I have to set up in my BIOS and constantly restart my computer. N-O-T-H-I-N-G worked. I decided that day to just boot into Windows and take a break from it. Only to see that Windows has noticed a ton of restarts and I’m locked out of my account for two hours. UAHAHHAHHHAAAAAAAAAAA.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/13699jZW4PZdx6" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/13699jZW4PZdx6" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 Then it would finally, gloriously, start to install. Only to run into an error saying there was a log of the error somewhere and I could try to reinstall. This went on for days before I saw that it [doesn’t even support MBR](https://github.com/spxak1/weywot/blob/main/Pop_OS_Dual_Boot.md#31-install-pop_os-first-windows-second-easiest) and I would have to install GRUB separately so I gave up on it.
 
@@ -27,7 +27,7 @@ So I settled with [Ubuntu Budgie](#) because of the dock it provided off the bat
 
 Pop_OS was tossed out and Ubuntu was brought in. But it took me at least a week to get to this point. I’m about ready to give up on switching to Linux.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/3XEgV9kfwLy1i" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/3XEgV9kfwLy1i" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 I still hang in there because of the success I had on an old netbook from 2014 that I recently installed [Lubuntu](#) on and it runs fantastic. Especially when you consider it only has a single-core processor and two gigs of ram. I did that experiment because the keyboard on the [ThinkPad X100e](#) is phenomenal. I was able to open up GIMP on that netbook and do photo correction. This thing had trouble opening Firefox when it was running Windows 7. If you have a low-powered laptop or computer I highly suggest nuking the hard drive (backing up stuff first of course) and installing Linux on top of it. It resurrected an excellent piece of hardware.
 
@@ -39,7 +39,7 @@ I can’t install it. I think that it is because I had the GRUB setup thinking t
 
 Time to install a stock version of Ubuntu to see if that fixes the filled hard drive. I can install a [plugin to get Plank installed](https://launchpad.net/plank) so I have a good enough time with the OS. Hopefully, this doesn't have the problems I had with the other two distros. I get it on the live USB boot into it. It is installed on the computer like butter, with no hiccups. I did choose the new option “Install alongside Windows” instead of setting up my partitions manually and that probably reduced some headaches. I had to double and triple-check that it was installed to the proper partition though. Restart the computer, back to a black screen. Time to go to bed.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/GXrojV8tqhxR7ZsZeI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/GXrojV8tqhxR7ZsZeI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 The next day I have to google what I need to do to get it past the black screen and I [come across a solution](#) to toss “nomodeset” at the end of a line in GRUB. Sweet, I toss that in there and I am in Ubuntu and everything is working great.
 
@@ -49,7 +49,7 @@ I then had the bright idea that if that was so easy, I could probably do that to
 
 I am in, everything is working – I apply the long-term fix from the post I saw earlier and I get all my apps to install. It is now 1 am and I have work in the morning. I shut down and see that error scrolling through my screen again – force shutdown, go to sleep.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/gU25raLP4pUu4" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/gU25raLP4pUu4" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 I wake up the next day ready to work, I log into Linux and WTH my disk is full again! What is going on here? I end up googling it and [finding that Syslog and kernel.log were gigs worth of error messages.]() Guess I should have paid attention when shutting down. My computer was logging an infinite loop to these files and they got huge QUICK. I did a `tail -100` of each of them into a text file inside my Document folder and deleted them. I HAVE HARD DRIVE SPACE AGAIN.
 
@@ -65,7 +65,7 @@ Getting a printer setup on Linux wasn’t awful but if I didn’t know how to ge
 
 Setting up my Razer Cyonisa and Mamba mouse was simple with [OpenRazer](https://openrazer.github.io/), however, the GUI interfaces for them are lacking behind the official Razer Synapse. But I did get them to be lit up how I would normally have them on my Windows Machine. I don’t want all the RGB but I do want to light-up keys.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/AsGnrla1K6FN7ajonc" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/AsGnrla1K6FN7ajonc" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 ## Day One
 

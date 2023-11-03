@@ -40,7 +40,7 @@ The size of an element and it's content starts to get confusing when you start t
 
 This would make sure the content area is set to be 50px wide and then add on the padding and border to that and then render the box. This would end up making our box 80px wide after we add the width, left and right padding, and the border.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/yYSSBtDgbbRzq" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/yYSSBtDgbbRzq" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 This is rough because if **we set** that width to be 50px then it's a weird 80px wide. Picture it like a room in a house, when you measure the footage for a carpet you don't include the thickness of the walls or the outside wall. However, when you are outside the house and you measure from one side to the other you would include all that.
 
@@ -63,7 +63,7 @@ So now if we have the width to 50px and add 10px padding to the left and right, 
 
 Having this capability makes setting up layouts a whole lot simpler. Having a predictable size makes it so when I set up my 50%/50% layout it _stays_ half and half, no matter what kind of padding or border I put on them.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/iY0Z64nfcBMx8gE58F"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

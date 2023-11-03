@@ -28,7 +28,7 @@ So the way you can set your margin and padding is essentially the same. They acc
 
 I know that these are pretty straightforward on how to do them but WHY would we set them like this, eh?
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/l2Je0RacqOGh5Sew8"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -60,7 +60,7 @@ Three values will set the top, left/right, and bottom for the element. I find th
 
 **Four Values**
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/920qApPuMRQqdC4kOR" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/920qApPuMRQqdC4kOR" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 When you write them out they go in this order. Top, right, bottom, left.
 
@@ -97,7 +97,7 @@ Now I’m going to write a whole blog post about margin collapse later, but righ
 
 The last thing that you might be tempted to do is to move an element using margins. And you can, but it is tough for the browser to render that motion. If you need to move something with an animation, it is suggested to use transforms to [achieve the 60 frames per second](https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108) because they are the easiest for the browser to render.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/97X5lNO0SYKirZOblO"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

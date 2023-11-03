@@ -22,7 +22,7 @@ What we were facing was user generated tables inside our Content Management Syst
 
 The quick fix is to just slap `overflow-x: scroll` on a wrapper div and call it a day. This will allow the user to scroll left or right on the table and access all the info.
 
-<div style="width:100%;height:0;padding-bottom:200px;position:relative;"><iframe src="https://giphy.com/embed/12e5dX36aMp2Ba" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/something-how-front-12e5dX36aMp2Ba">via GIPHY</a></p>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:200px;position:relative;"><iframe src="https://giphy.com/embed/12e5dX36aMp2Ba" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/something-how-front-12e5dX36aMp2Ba">via GIPHY</a></p>
 
 Sadly that isn't enough. How can a user know there is additional content to the right without some sort of indicator? We could use an arrow but, unless we have a bunch of them, going down the entire side, there is a chance people will miss it _(actually I've seen this done and you could even hook up a click event to the arrows to make it scroll for you)._ We chose a subtler approach to make shadows on the sides to indicate there is more content to the left or right, kind of as like its a roll of parchment.
 
@@ -127,7 +127,7 @@ const hasScrollBar = function(){
 
 So far this will run when the page is loaded, that is because of the `()` at the end of the function declaration. Fun fact, that is called an IIFE (pronounced iffy) or [Immediately Invoked Function Expression](https://developer.mozilla.org/en-US/docs/Glossary/IIFE). Now it'll attach the shadow to the correct side of the table when you load up. However, it won't move so when the user scrolls it'll just stay in one spot.
 
-<div style="width:100%;height:0;padding-bottom:300px;position:relative;"> <iframe src="https://giphy.com/embed/ao9uBG75JSIcE" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:300px;position:relative;"> <iframe src="https://giphy.com/embed/ao9uBG75JSIcE" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 We we'll have to set some javascript to make the shadow stick to the edge of the screen when they scroll. Still inside the `forEach` loop
 
@@ -172,7 +172,7 @@ window.addEventListener('resize', function(){
 
 And that is just about it. We can now zoom from left to right with the shadows on the side.
 
-<div style="width:100%;height:0;padding-bottom:200px;position:relative;"> <iframe src="https://giphy.com/embed/ClFhnciqiinwk" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:200px;position:relative;"> <iframe src="https://giphy.com/embed/ClFhnciqiinwk" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 <span style="text-transform: uppercase">But wait</span>, what is this? The shadows don't stick to the edges of the screen! If your computer is anything like mine it can't calculate the correct spot for where they should be while its scrolling. A easy way to fix this is to put an outline on the wrapper div so it is still shaded while it pulls off the edge of the page.
 

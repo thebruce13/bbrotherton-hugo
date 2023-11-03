@@ -29,7 +29,7 @@ But the first PC that entered the house that we actually used was in 1998. With 
 
 I started with Microsoft FrontPage and created simple web pages that were done with a GUI and then I made a home page using Homestead.com. It had a pretty impressive collection of Dragon Ball Z gifs if I do say so myself. 
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/13fTar4VVaFlG8"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -54,7 +54,7 @@ I did have to put together a new [webpage for my portfolio](https://web.archive.
 
 It's worth noting that I still didn't have any type of IDE at this point, I was doing this all in Notepad.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/nGtOFccLzujug" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/nGtOFccLzujug" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 Then after college, I got a job doing architectural rendering at [Edese Doret](https://edesedoret.com/). I worked way over in New York, New York. I tell you what, big city life isn't for this country mouse. I was able to stick it out for 9 months and then had to go home. The work was great and I wish it was something I continued to do professionally. Right now though, using 3d as a hobby and making 3d banners for my website is plenty.
 
@@ -72,7 +72,7 @@ I decided to switch my coursework and transition to Hardware Support and Network
 
 I was convinced I'd never get a job doing websites and I thought Help Desk is needed everywhere. I learned, and have forgotten, a lot about computers. From how to write VB script to subnetting a network. From setting up a DHCP server to how a web page is retrieved from the Internet. How to write batch files and what the IP address 169.254.15.101 means. I think the most relevant thing I learned is how a packet of data is transferred between servers.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/3owzW5c1tPq63MPmWk"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -91,7 +91,7 @@ Most of my duties were writing HTML emails, getting images prepped to be online,
 
 It was a good thing I spent so much time in the late 90s working on my web pages. The only way for you to make something that had structure was with tables and that was all emails can be.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/yqk0sOj4GECejV0ScX"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -106,7 +106,7 @@ However, this job too was brought to a close when the company had to downsize. A
 
 Months of relaxation were not on the plate. A couple of weeks later after looking for jobs and submitting resumes I ended up getting an interview at a place called Ad-Lit Inc. The interview may have been a little unconventional but the people who were conducting it were great and they ended up liking me enough to let me join the team. I was paired up with the other programmer there who was brilliant and introduced me to the 21st century of web development. She got me started on Gulp, WordPress, NodeJS, Bower. Real tools inside the terminal. My skills as a developer increased 100 fold because she was willing to step me through the processes and include me as she developed more. Every time I had a question about my code, she was able to look at and also see the whole picture of what I was trying to do and ask probing questions on why I chose to do a part of code I wasn't even questioning.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/11uamggNN7KTsY"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>
@@ -141,7 +141,7 @@ It was another similar idea when making this [CSS-only tooltip](https://codepen.
 
 If you have read this far you can tell, my journey into web development wasn't a straight path. It started when I was just curious about what made up websites and I built out as little as I could understand. Then life happened and I went and gained other experience in other fields. I never really gave myself the opportunity to learn website stuff - a lot of what I learned was because I needed to make something specific to the task. And honestly, that is still responsible for a lot of my learning. That additional experience though gives me a unique lens through which to view how I approach my career. I have insights into the inner workings of computers and graphics that inform my decisions on what to do on a webpage or how to influence its interactivity. Above all, the reason why I am on this path and able to succeed is due to the people I met along the way.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/W7DHaxkSE4Lpm"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

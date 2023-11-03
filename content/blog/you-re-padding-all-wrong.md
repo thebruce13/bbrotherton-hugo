@@ -47,7 +47,7 @@ This sets up our padding across all four sides if we need it setup this way. Now
 
 Setting the padding will end up overriding these values no matter where they are set in the cascade.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;">
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;">
 <iframe src="https://giphy.com/embed/rh0W2vpayXMac"
 width="100%" height="100%" style="position:absolute"
 frameBorder="0" allowFullScreen></iframe></div>

@@ -11,13 +11,13 @@ title = "Box Model: Borders"
 +++
 And now we are at the final and my most favorite part of the box model, borders.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/oF5oUYTOhvFnO" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/oF5oUYTOhvFnO" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 We have a range of things to go over the border with type or style and colors and widths. In the end, I'll try and cover some _not_ borders that we can use to not affect the box model.
 
 The first thing is let's go over how to set borders. It's pretty straightforward to set up a border around the whole box. `1px solid black`. That is my most typical reach for the setting when I'm putting on borders. The "1px" sets the width of the border, "solid" sets the style, and the "black" sets the color.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/K2g83n6kzUlUI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/K2g83n6kzUlUI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 It's good to know that the order doesn't matter but I almost always set it this way to keep things consistent. As long as you are consistent your coding will be predictable.
 
