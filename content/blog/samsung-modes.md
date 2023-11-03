@@ -21,7 +21,7 @@ So I started downloading some dual wallpaper apps. First I started with [Dark Mo
 So the other night, I was playing with Samsung Modes, as they are a super neat feature. I like them because you can have them activated at a certain time or sunset/sunrise and take care of setting your phone up for you to wind down. While I was in there I saw I could change the wallpaper with each mode. I quickly made two modes, one for day with a light theme wallpaper and one for night with a dark theme wallpaper. 
 
 So with thus I have full control over what wallpapers show at what time. Boohya! 
-<div style="width:100%;height:0;min-height:200pm;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/aDR9UFzZD4kkdOZM9P" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200pm;padding-bottom:35%;position:relative;"> <iframe src="https://giphy.com/embed/aDR9UFzZD4kkdOZM9P" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 ## But Wait There’s More!
 
