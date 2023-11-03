@@ -10,14 +10,12 @@ title = "You Need Your Own Streaming Server"
 +++
 Nowadays it seems that every streaming service out there wants to nickel and dime you every step of the way when all you want to do is watch Pirates of the Caribbean on the toilet.
 <div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/YZIiXdt43y0M0" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
- 
 Or the infinite that is their digital catalog makes you spend more time looking for something to watch than watching a show.
  
 Even music isn’t great when you spend $10 a month and listen to the same 10 albums all year long. While being bombarded with advertisements for artists that you have zero interest in.
  
 If you are a millennial or a gen-x, you are sitting on a goldmine of CDs and DVDs just waiting to be harvested into your streaming server.
 <div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/Bl1t1DdP6iASI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
- 
 If ditching the streaming services has been on your mind, let me guide you to some resources and get you on the path of truly cutting the cable.
 
 ## What kind of computer do I need?
@@ -34,7 +32,7 @@ Now, if you are planning on hosting more than 2 or 3 people at a time, streaming
 #### But what if I don’t have another pc?
 
 If you, like me, didn’t have a second PC on tap that was ready to be your streaming server, don’t worry. It is possible to install streaming server software onto your main computer.
- 
+<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/o0eOCNkn7cSD6" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 The only problem I had with that is that when someone wanted to stream while I was using the PC they could cut into resources I’d need to play video games or get work done.
  
 The solution I came up with is to create a virtual machine using [Virtual Box](https://www.virtualbox.org) and run Ubuntu on it.
@@ -85,10 +83,7 @@ So I’m at the point now that if I want a certain piece of media I can reach in
 This also lets me have all my media in one place, so I don’t have to go searching for where to find the next Pirates of the Caribbean movie.
  
 I even have access to One Pace so I can finally catch up to the series in time for it to end!
-
 <div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/SJXzadwbexJEAZ9S1B" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
-
-
 The biggest surprise for me, however, was having access to all of my old music. It has been wonderful listening to albums I haven’t heard from in a long time and forgot even existed. I’ve launched Apple Music since I have it from a family plan to sample music but I would rather buy it as I need it rather than try and navigate the user interfaces of streaming services to get to it.   
 
 ## Sidenote about VuDu
