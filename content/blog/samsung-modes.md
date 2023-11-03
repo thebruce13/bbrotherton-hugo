@@ -14,14 +14,14 @@ title = "Samsung Modes"
 I am an avid Samsung and Android fan. One of my favorite things is discovering new things inside the settings that I didn't know about. Similar to when you read your car manual and discover all the things your radio can do. Today was one of those kinds of days. 
 
 I was using my iPhone one day because I needed an app that was only on iPhone. I ended up wanting to change the background. So I took a look at the stock backgrounds that were available and noticed that there were ones that responded to light and dark modes. I got pretty envious of this feature. As much as I love my Samsung, some UI elements on iPhone are top notch in my opinion. For example, I also use an iPhone icon pack on my phone just because I think they look the best. 🤷‍♂️ Sue me.
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/3o85xnHXDgKM21daPm" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/3o85xnHXDgKM21daPm" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 So I started downloading some dual wallpaper apps. First I started with [Dark Mode Wallpaper](https://play.google.com/store/apps/details?id=com.dci.dev.darkmodewallpaper) with some success. The interface was simple to use but I felt like it missed the dark mode trigger from my phone. Then I moved to [Dual Wallpaper](https://play.google.com/store/apps/details?id=de.dlyt.yanndroid.dualwallpaper) that worked as intended but I felt weird to have an app to do this. There must be a better way.
 
 So the other night, I was playing with Samsung Modes, as they are a super neat feature. I like them because you can have them activated at a certain time or sunset/sunrise and take care of setting your phone up for you to wind down. While I was in there I saw I could change the wallpaper with each mode. I quickly made two modes, one for day with a light theme wallpaper and one for night with a dark theme wallpaper. 
 
 So with thus I have full control over what wallpapers show at what time. Boohya! 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/aDR9UFzZD4kkdOZM9P" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200pm;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/aDR9UFzZD4kkdOZM9P" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 ## But Wait There’s More!
 
