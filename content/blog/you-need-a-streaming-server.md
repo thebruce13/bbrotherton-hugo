@@ -10,7 +10,7 @@ title = "You Need Your Own Streaming Server"
 +++
 Nowadays it seems that every streaming service out there wants to nickel and dime you every step of the way when all you want to do is watch Pirates of the Caribbean on the toilet.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/YZIiXdt43y0M0" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/YZIiXdt43y0M0" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 Or the infinite that is their digital catalog makes you spend more time looking for something to watch than watching a show.
  
@@ -18,7 +18,7 @@ Even music isn’t great when you spend $10 a month and listen to the same 10 al
  
 If you are a millennial or a gen-x, you are sitting on a goldmine of CDs and DVDs just waiting to be harvested into your streaming server.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/Bl1t1DdP6iASI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/Bl1t1DdP6iASI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 If ditching the streaming services has been on your mind, let me guide you to some resources and get you on the path of truly cutting the cable.
 
@@ -37,7 +37,7 @@ Now, if you are planning on hosting more than 2 or 3 people at a time, streaming
 
 If you, like me, didn’t have a second PC on tap that was ready to be your streaming server, don’t worry. It is possible to install streaming server software onto your main computer.
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/o0eOCNkn7cSD6" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:400px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/o0eOCNkn7cSD6" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 The only problem I had with that is that when someone wanted to stream while I was using the PC they could cut into resources I’d need to play video games or get work done.
  
@@ -76,7 +76,7 @@ After that, I wanted to try and copy a personal DvD I had so I also purchased Wo
  
 Now these tools could be used to grab media from any YouTube video or DVD but these are the ones I started with. 
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/8JCwuk8n2Y6iI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:15%;position:relative;"> <iframe src="https://giphy.com/embed/uXUmaREltwja1dEqXi" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 Music was next. I already had a bunch of folders that I had as backups of my Zune so I just moved those over to my streaming server and pointed the server to look there for music. I then downloaded my iTunes library and Amazon music I purchased and put them on the server.
  
@@ -91,7 +91,7 @@ This also lets me have all my media in one place, so I don’t have to go search
  
 I even have access to One Pace so I can finally catch up to the series in time for it to end!
 
-<div style="width:100%;height:0;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/SJXzadwbexJEAZ9S1B" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/SJXzadwbexJEAZ9S1B" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 The biggest surprise for me, however, was having access to all of my old music. It has been wonderful listening to albums I haven’t heard from in a long time and forgot even existed. I’ve launched Apple Music since I have it from a family plan to sample music but I would rather buy it as I need it rather than try and navigate the user interfaces of streaming services to get to it.   
 
