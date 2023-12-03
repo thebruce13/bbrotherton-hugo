@@ -99,6 +99,10 @@ The biggest surprise for me, however, was having access to all of my old music. 
 
 I wanted to take a second to talk about buying movies from VuDu, Google Movies, or Apple TV. I would vote yes 100 times. I love the library I’ve built on VuDu it’s been a lifesaver. Sadly, not everything is available on there and some of the stuff I have physically isn’t available anywhere. Say for instance you had an original trilogy of Star Wars that had Sebastian Shaw as a force ghost, you can’t buy that now. I have all the extended editions of Lord of the Rings on VuDu and I don’t plan to ever move that onto my streaming server. 
 
-Plus, these services allow you to download shows as you wish and have better encoding and quality throttling as you need it than my streaming server does. And it’s great that a lot of physical copies of movies come with a digital code too. Still, licensing is a thing and could potentially rip those away from me. So, yeah. I love it a lot more than a streaming service, but it can get pricey and isn’t guaranteed. With your server, you control the files and can add to it as you see fit with a community’s help you likely have access to more than you could watch in a lifetime.
+Plus, these services allow you to download shows as you wish and have better encoding and quality throttling as you need it than my streaming server does. And it’s great that a lot of physical copies of movies come with a digital code too. Still, licensing is a thing and could potentially rip those away from me. 
+
+Update 12/2/2023 [Looks like Playstation did just that with Discovery content.](https://www.businessinsider.com/playstation-removes-hundreds-of-purchased-discovery-shows-from-library-2023-12?op=1)
+
+So, yeah. I love it a lot more than a streaming service, but it can get pricey and isn’t guaranteed. With your server, you control the files and can add to it as you see fit with a community’s help you likely have access to more than you could watch in a lifetime.
  
 So get in there and get your own family streaming service a go. It may be enough to drop at least two services off your bill. Good luck! That’s all for now.
