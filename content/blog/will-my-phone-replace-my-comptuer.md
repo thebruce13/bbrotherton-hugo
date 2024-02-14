@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Productivity"]
 date = 2022-01-10T13:00:00Z
 description = "Is it possible to replace my entire desktop with just my Samsung? Diving into the idea of what it would take to do so and figuring out if we are there."

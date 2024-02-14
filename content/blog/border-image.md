@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2023-03-20T06:00:00Z
 description = "Border images have some of the most confusing syntaxes. Let's try and figure them out."

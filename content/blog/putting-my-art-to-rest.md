@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Art"]
 date = 2021-10-06T16:40:00Z
 description = "A look inside of when a dream needs to rest so others can thrive."

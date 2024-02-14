@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-08-08T04:00:00Z
 description = "The final installment of my box model series. The most fun one too, borders!"

@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2021-11-01T23:00:00Z
 description = "Talking about the CSS property line-height."

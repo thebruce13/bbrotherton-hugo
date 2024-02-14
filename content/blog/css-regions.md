@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2021-11-15T13:00:00Z
 description = "One of the coolest dead CSS properties that you will never use."

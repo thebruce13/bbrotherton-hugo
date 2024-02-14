@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Rambling", "Art"]
 date = 2020-09-28T11:30:00Z
 description = "My first blog post and a short intro into what I am doing."

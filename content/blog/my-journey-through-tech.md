@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Rambling"]
 date = 2022-03-01T05:00:00Z
 description = "A quick and full of typos journey though how I landed as a Front End Web Developer"

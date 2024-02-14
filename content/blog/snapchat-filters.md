@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = []
 date = 2020-10-28T04:00:00Z
 description = ""

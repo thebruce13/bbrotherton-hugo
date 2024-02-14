@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
 date = 2022-02-20T18:00:00Z
 description = "I tried my hand at installing Linux on top of my Windows machine. It did not go as planned. "

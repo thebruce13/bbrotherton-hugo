@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2021-10-10T00:30:00Z
 description = "A brief introduction to the inhert property of CSS."

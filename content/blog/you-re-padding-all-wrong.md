@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-02-06T05:00:00Z
 description = "There is a different way to get your padding inline other than setting padding: 0; Come a long and see."

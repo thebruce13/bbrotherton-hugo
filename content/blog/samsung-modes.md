@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
 date = 2023-04-21T01:00:00Z
 description = "Samsung Modes and how I use them to change the background of my phone for day and night."

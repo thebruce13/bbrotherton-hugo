@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-07-19T05:00:00Z
 description = "Going over the finer points for Margin and Padding part of the Box Model."

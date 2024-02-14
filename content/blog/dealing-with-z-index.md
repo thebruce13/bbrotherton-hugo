@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-01-24T15:15:00Z
 description = "Z-index is something that normally you don't have to worry about it, until you do. Figuring it out is troublesome at first and often APIs abuse it to ensure they have what they made sit on top of whatever is on the website."

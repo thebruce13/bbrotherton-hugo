@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Productivity"]
 date = 2020-11-07T15:00:00Z
 description = "For as long as I can remember I have been forgetting things. This is my method of trying to remember."

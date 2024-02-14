@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-06-13T04:01:00Z
 description = "The content-box is the most manipulated yet overlooked component of the box model. Here is where your images and text are displayed. But, what really goes on in this most inner box?"

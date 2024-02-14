@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2021-10-22T23:02:00Z
 description = "A method to display tables offscreen when they are too big."

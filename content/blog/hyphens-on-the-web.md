@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2021-12-01T04:00:00Z
 description = "How do end of line hyphens work? Lets dive into hyphens on the internet and how we can get these words to wrap."

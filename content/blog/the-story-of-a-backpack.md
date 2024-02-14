@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Rambling"]
 date = 2020-10-14T11:00:00Z
 description = "A small love letter to the backpack of my childhood."

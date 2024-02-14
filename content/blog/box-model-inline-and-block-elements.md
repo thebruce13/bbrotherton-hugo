@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-06-02T04:00:00Z
 description = "Looking at block vs inline and how it changes the way the box model behaves. "

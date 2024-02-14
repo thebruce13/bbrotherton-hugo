@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Front End"]
 date = 2022-09-26T05:00:00Z
 description = "Transitions are a cornerstone to good UX providing user interaction on elements. We need to tap into them to make things work a tiny more efficient."

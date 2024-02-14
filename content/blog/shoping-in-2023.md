@@ -1,5 +1,5 @@
 +++
-author = ["Bruce"]
+author = ["Bruce Brotherton"]
 categories = ["Rambling", "Productiviy"]
 date = 2023-04-14T11:30:00Z
 description = "An idea on how to leverage the algorithim to help you research what you are shopping for."
