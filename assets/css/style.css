@@ -2624,6 +2624,7 @@ h2.entry-title {
 	padding-top: 5rem;
 }
 
+.entry-content + .post-inner,
 .reduced-spacing.missing-post-thumbnail .post-inner {
 	padding-top: 0;
 }
