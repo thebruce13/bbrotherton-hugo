@@ -10,6 +10,8 @@ title = "The Story of a Backpack"
 +++
 So why did I pick "Bruce's Backpack" one reason is because way back in high school on [Blogger.com](https://www.blogger.com) I started a blog that went nowhere under the same name. It also had the same premise. But the reason I started with that name is because in high school I had the world's coolest backpack.
 
+Update 6/26/2024 [They brought it back!!](https://shop.ccs.com/products/ccs-tour-backpack-black) and I couldn't be more excited!
+
 ![Green backpack.](/images/persp-front.jpg)
 
 It was the CCS Skateboarding backpack and it was massive and held all of my stuff. Notepads, textbooks, sketchpads, Gameboy Color, skateboard. You name it was put into this bag. The pouches were my favorite because I could load them up with all kinds of goodies. The top side pocket held my [Halo 3 Zune](https://gizmodo.com/first-pics-of-the-zune-halo-3-special-edition-259877) for the longest time. I tell ya, they don't make devices like that anymore.
