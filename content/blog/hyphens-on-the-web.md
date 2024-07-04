@@ -94,7 +94,7 @@ p { hyphenate-limit-lines: 2; }
 The last rule I want to cover here is the last [line of the paragraph](https://www.w3.org/TR/css-text-4/#propdef-hyphenate-limit-last). Should it get hyphenated? The default behavior for CSS is yes. I think that is okay, because the user already has seen hyphens through the document and the last word being hyphenated won't be a surprise. Still aesthetically I could see wanting to keep the last word of the paragraph together and you can do that with this rule:
 
 ```css
-p { hyphenate-limit-lines: always }
+p { hyphenate-limit-last: always }
 ```
 
 ## Force Wrapping Text
