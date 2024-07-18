@@ -2530,12 +2530,16 @@ h2.entry-title {
 	align-items: center;
 	display: flex;
 	flex-wrap: nowrap;
-	color: var(--white);
+	color: var(--dark-blue);
 }
 
 .post-meta .meta-icon {
 	flex-shrink: 0;
 	margin-right: 1rem;
+}
+
+.post-meta .meta-text {
+	color: var(--dark-blue);
 }
 
 .sticky .post-sticky {
