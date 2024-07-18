@@ -40,6 +40,10 @@ For this, we simply add a rule like `blockquote { break-inside: avoid }` this wi
 
 The last part that we need to worry about with these breaks is [orphans and widows](https://designshack.net/articles/typography/widow-typography/). These can cause a jarring effect when a single word is located in the next column (orphans). Or if a paragraph starts with a word or two and the rest is on the next page (widow). Setting these to 3 usually is enough, but you can play with it as you like. `.foo p { orphans: 3; widows: 3 }`This will ensure that at least 3 lines at the beginning and end of the paragraph will be visible in any column.  Just be aware both of [these are unsupported in Firefox](https://caniuse.com/?search=orphans).
 
+### Hyphens
+
+Now with the reading area getting smaller I would suggest adding in hyphens to the text. There is a lot to them so I suggest going back to my previous article, [Hypens on the Web](https://www.brucebrotherton.com/blog/hyphens-on-the-web/). I also enjoy using the `text-align: justified` with this layout as it feels pretty natural and looks more interesting. 
+
 ## My solutions
 
 ### Collapse the columns
