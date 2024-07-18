@@ -18,8 +18,6 @@ Here is [a CodePen](https://codepen.io/brucebrotherton/full/yEGozE) that uses th
 
 ## Column Basics
 
-### Columns
-
 The basic setup for creating columns is simple. `.foo { columns: 2}` this sets the column-count and bam, two columns. Another way to set them up it to specify the column-width `.foo { columns: 100px }` this will make as many columns as it can with them all being 100px wide. So if you had `.foo { columns: 200px }` when the window was 800px wide you’d have 4 columns, but when it gets down to 400px it would have two, three in-between those two and one when it gets down to 200px. And if you set your column to `.foo { columns: 200px 3 }` it will max out at three columns.  You’ll likely want to set both values so your columns don’t get out of hand, but you’ll almost always want to set a column-width so it can act responsively to the browser. The way the text flows into itself so well its like water getting pulled into a pond, the only thing that acts like this is the now abandoned [css regions](https://www.brucebrotherton.com/blog/css-regions/).
 
 ### Column-gap and column-rule
