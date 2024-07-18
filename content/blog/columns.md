@@ -16,6 +16,9 @@ With the rise of block editors being part of WordPress and other site builders, 
 
 Here is [a CodePen](https://codepen.io/brucebrotherton/full/yEGozE) that uses the principles that are discussed in this article for your pleasure to pick apart and experiment with. It is older as of this writing but it has a lot of cool bits to it. [This example](https://codepen.io/brucebrotherton/pen/zLowXR/68d0d3bc11301c1666db6296a6d51cf7) was one I created for a mock-up of a magazine article and highlights what It could look like with different sections on the page. Or [this example](https://codepen.io/brucebrotherton/pen/vYwMRxo) that uses a little bit of JS to break up columns and make sure they are readable no matter the screen size, and personally is my favorite.
 
+[![screenshot of columns layout](/images/columns-codepen.png)](https://codepen.io/brucebrotherton/full/vYwMRxo)
+
+
 ## Column Basics
 
 The basic setup for creating columns is simple. `.foo { columns: 2}` this sets the column-count and bam, two columns. Another way to set them up it to specify the column-width `.foo { columns: 100px }` this will make as many columns as it can with them all being 100px wide. So if you had `.foo { columns: 200px }` when the window was 800px wide you’d have 4 columns, but when it gets down to 400px it would have two, three in-between those two and one when it gets down to 200px. And if you set your column to `.foo { columns: 200px 3 }` it will max out at three columns.  You’ll likely want to set both values so your columns don’t get out of hand, but you’ll almost always want to set a column-width so it can act responsively to the browser. The way the text flows into itself so well its like water getting pulled into a pond, the only thing that acts like this is the now abandoned [css regions](https://www.brucebrotherton.com/blog/css-regions/).
@@ -28,7 +31,7 @@ We can also add a line down the middle just like a [border](https://www.brucebro
 
 ### Spanning columns
 
-There is a handy feature you can use while creating content in columns, if you want a piece of content to break them up you can add a CSS property called `column-span` . The only caveat is that is an all-or-none rule, you can’t have it span only half the columns like you can with tables. `.bar { column-span: all }` keep in mind it’ll be read as it is laid out in the content so it is not all that great for accessibility. And is the key I discovered while writing this blog to create my JS fix to make columns viable in browsers.
+There is a handy feature I learned while writing this article [at MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout). You can use while creating content in columns, if you want a piece of content to break them up you can add a CSS property called `column-span` . The only caveat is that is an all-or-none rule, you can’t have it span only half the columns like you can with tables. `.bar { column-span: all }` keep in mind it’ll be read as it is laid out in the content so it is not all that great for accessibility. And is the key I discovered while writing this blog to create my JS fix to make columns viable in browsers.
 
 ## Column Breakups
 
@@ -42,7 +45,7 @@ The last part that we need to worry about with these breaks is [orphans and wido
 
 ### Hyphens
 
-Now with the reading area getting smaller I would suggest adding in hyphens to the text. There is a lot to them so I suggest going back to my previous article, [Hypens on the Web](https://www.brucebrotherton.com/blog/hyphens-on-the-web/). I also enjoy using the `text-align: justified` with this layout as it feels pretty natural and looks more interesting. 
+With the reading area getting smaller, I suggest adding hyphens to the text. Hyphens have many nuances; brush up on them in my previous article, [Hypens on the Web](https://www.brucebrotherton.com/blog/hyphens-on-the-web/). I also enjoy using the `text-align: justified` with this layout as it feels natural and visually appealing.
 
 ## My solutions
 
