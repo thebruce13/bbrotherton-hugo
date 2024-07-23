@@ -8,13 +8,13 @@ tags = ["Beginner", "Css"]
 title = "Columns!"
 
 +++
-I’ve always enjoyed columns on websites and articles in newspapers and magazines. However, the variable nature of screens makes using columns on the web inadvisable. First, they read in an N pattern, not a Z pattern. That makes it almost impossible to read when you have to scroll to the bottom of each column and then back to the top to continue reading. There is a case that this could work better for the F pattern as it allows a user to scan deeper into the article quickly. To address the problem of scrolling up and down the N pattern we are going to need to adjust the content to react accordingly to the screen size. Granted, this is lost on mobile devices since they are pretty much a single column as it is and that is probably more than 50% of your traffic. That doesn’t mean that offering a richer experience for desktop users isn’t something to be desired. 
+I’ve always enjoyed reading columns on websites and articles in newspapers and magazines. However, the variable nature of screens makes using columns on the web inadvisable for seamless reading experiences. First, they follow an N pattern rather than a Z pattern, which complicates scrolling and disrupts reading flow. That makes it almost impossible to read when you have to scroll to the bottom of each column and then back to the top to continue reading. There is a case that this could work better for the F pattern as it allows a user to scan deeper into the article quickly. To address the problem of scrolling up and down the N pattern we are going to need to adjust the content to react accordingly to the screen size. Granted, this is lost on mobile devices since they are pretty much a single column as it is and that is probably more than 50% of your traffic. That doesn’t mean that offering a richer experience for desktop users isn’t something to be desired. 
 
-With the rise of block editors being part of WordPress and other site builders, the workflow to ensure this functions effectively has become a lot more attainable. Up front, I know the idea of having columns in some sections and no columns in others may be disjointed and distracting. However, when this gets pulled off it elevates the experience and prestige of a page. 
+With the integration of block editors in WordPress and other site builders, managing multi-column layouts has become more accessible. Up front, I know the idea of mixing columned and non-columned sections may seem disjointed and distracting.
 
 ## TL:DR
 
-Here is [a CodePen](https://codepen.io/brucebrotherton/full/yEGozE) that uses the principles that are discussed in this article for your pleasure to pick apart and experiment with. It is older as of this writing but it has a lot of cool bits to it. [This example](https://codepen.io/brucebrotherton/pen/zLowXR/68d0d3bc11301c1666db6296a6d51cf7) was one I created for a mock-up of a magazine article and highlights what It could look like with different sections on the page. Or [this example](https://codepen.io/brucebrotherton/pen/vYwMRxo) that uses a little bit of JS to break up columns and make sure they are readable no matter the screen size, and personally is my favorite.
+Explore [this CodePen](https://codepen.io/brucebrotherton/full/yEGozE) for practical examples discussed in this article. It’s an older resource but packed with insightful elements. It is older as of this writing but it has a lot of cool bits to it. [This example](https://codepen.io/brucebrotherton/pen/zLowXR/68d0d3bc11301c1666db6296a6d51cf7) was one I created for a mock-up of a magazine article and highlights what It could look like with different sections on the page. Or [this example](https://codepen.io/brucebrotherton/pen/vYwMRxo) that uses a little bit of JS to break up columns and make sure they are readable no matter the screen size, and personally is my favorite.
 
 [![screenshot of columns layout](/images/columns-codepen.png)](https://codepen.io/brucebrotherton/full/vYwMRxo)
 
@@ -37,7 +37,7 @@ There is a handy feature I learned while writing this article [at MDN](https://d
 
 So now we can create our columns and get them looking snazzy. The next part is worrying about our content when it gets moved to the next column. For instance, if we had a blockquote that spanned two columns, we’d want that to stay in one or the other, not get sliced between the two. 
 
-For this, we simply add a rule like `blockquote { break-inside: avoid }` this will ensure the content inside of it will stay together. Other than that, we have `break-before` and `break-after` and these will determine breaks before or after elements and take [the same arguments as break-inside](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout/Handling_content_breaks_in_multicol_layout);
+Maintain content integrity when transitioning between columns. Use `break-inside: avoid` for elements like `blockquote`, ensuring content remains cohesive and avoids awkward breaks. Other than that, we have `break-before` and `break-after` and these will determine breaks before or after elements and take [the same arguments as break-inside](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout/Handling_content_breaks_in_multicol_layout);
 
 ### Orphans and Widows
 
@@ -45,7 +45,7 @@ The last part that we need to worry about with these breaks is [orphans and wido
 
 ### Hyphens
 
-With the reading area getting smaller, I suggest adding hyphens to the text. Hyphens have many nuances; brush up on them in my previous article, [Hypens on the Web](https://www.brucebrotherton.com/blog/hyphens-on-the-web/). I also enjoy using the `text-align: justified` with this layout as it feels natural and visually appealing.
+Enhance readability with hyphenation in text. Learn more about hyphen usage in my article on [Hyphens on the Web](https://www.brucebrotherton.com/blog/hyphens-on-the-web/), coupled with `text-align: justified` for natural and visually appealing text layout.
 
 ## My solutions
 
