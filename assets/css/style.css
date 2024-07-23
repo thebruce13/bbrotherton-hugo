@@ -2265,6 +2265,8 @@ button.search-untoggle {
 	z-index: 1;
 }
 
+.entry-header .post-meta-wrapper .meta-wrapper,
+.entry-header .post-meta-wrapper .meta-wrapper .meta-text, 
 .cover-header .entry-header * {
 	color: #fff;
 }
