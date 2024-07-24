@@ -19,6 +19,10 @@ URL = "https://www.teepublic.com/user/thebruce13"
 name = "T-Shirts"
 weight = 3
 [[menu.desktop]]
+URL = "bytes"
+name = "Bytes"
+weight = 1
+[[menu.desktop]]
 URL = "blog"
 name = "Blog"
 weight = 1
@@ -27,13 +31,17 @@ URL = "/"
 name = "Home"
 weight = 1
 [[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
+[[menu.main]]
+URL = "bytes"
+name = "Bytes"
+weight = 2
+[[menu.main]]
 URL = "about"
 name = "About"
 weight = 4
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 5
 [[menu.main]]
 URL = "contact"
 name = "Contact"
