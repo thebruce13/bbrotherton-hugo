@@ -37,6 +37,6 @@
     {
         "date": "05/22/2024",
         "time": "2:24pm",
-        "text": "One of my most favorite and also cringiest CSS tricks is stacking classes to override specificity. .`foo.foo.foo {...}`"
+        "text": "One of my most favorite and also cringiest CSS tricks is stacking classes to override specificity:  \n`foo.foo.foo {...}`"
     }
 ]
