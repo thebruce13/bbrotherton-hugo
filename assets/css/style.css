@@ -6544,3 +6544,8 @@ a.to-the-top>* {
 		max-width: 50%;
 	}
 }
+
+/* Bytes */
+.bytes p:empty {
+	display: none;
+}

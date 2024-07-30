@@ -1,6 +1,11 @@
 [
     {
         "date": "07/30/2024",
+        "time": "3:09pm",
+        "text": "In the Tau it is the space between things that has value. Its not the walls of the house that has value, its the things and people inside it. Its not the spokes of a wheel that creates its value, its the space between that makes it a circle.  \n\nLikewise with excerise and training, I'm building up these pillars so the spaces inbetween the workouts is where I will generate value.  \n\nThe days where I can spend the entire time chasing my daughter around the water park and still have energy afterward is what makes its great. "
+    },
+    {
+        "date": "07/30/2024",
         "time": "12:56pm",
         "text": "Understanding negative Z-Index with CSS is such a game changer."
     },
@@ -27,7 +32,7 @@
     {
         "date": "05/25/2024",
         "time": "1:05pm",
-        "text": "After a bunch of headache I finally got Steam to run games off my secondary hard drive. The problem was with how it was mounted in `/etc/fstab` here is my line to mount the drive now. If anyone has a comment to improve it please let me know. `UUID=567EFBB57EFB8BCD /media/programs ntfs uid=1000,gid=1000,rw,user,nosuid,nodev,nofail,exec,umask=000,x-gvfs-show 0 0`.  \n I also installed steam via flatpak and needed to tell steam it could access the drives using flatseal"
+        "text": "After a bunch of headache I finally got Steam to run games off my secondary hard drive. The problem was with how it was mounted in `/etc/fstab` here is my line to mount the drive now. If anyone has a comment to improve it please let me know. `UUID=567EFBB57EFB8BCD /media/programs ntfs uid=1000,gid=1000,rw,user,nosuid,nodev,nofail,exec,umask=000,x-gvfs-show 0 0`.  \n\n I also installed steam via flatpak and needed to tell steam it could access the drives using flatseal"
     },
     {
         "date": "05/24/2024",

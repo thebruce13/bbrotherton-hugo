@@ -10,7 +10,7 @@
   <div class="post-inner thin">
     <div class="entry-content">
       {{ .Content }}
-      <ul>
+      <ul class="bytes">
       {{ range .Site.Data.bytes }}
       {{ $s := .text}}
           <li><strong>{{.date}}</strong> <em>{{.time}}</em><p>{{$s | markdownify }}</p></li>
