@@ -4,7 +4,7 @@ categories = ["Front End"]
 date = 2024-07-18T15:15:00Z
 description = "Columns have always seemed like a cool idea on the web. However its implementation was short sited and now with responsive design, discarded. I hope to change that."
 image = "/images/columns.jpg"
-tags = ["Beginner", "Css"]
+tags = ["Beginner", "Css", "JavaScript"]
 title = "Columns!"
 
 +++
