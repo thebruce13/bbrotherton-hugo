@@ -31,7 +31,7 @@ I instantly fell back in love with the tactile buttons, the myriad of watch face
 
 It outshines anything I’ve worn and even my wife’s iWatch feels clunky by comparison. Having to input a pin on a tiny screen to access apps on my wrist is wack.
 
-## Display and build
+### Display and build
 The E-ink display alone makes it a better experience. No “Always on Display” eating the battery, that’s the default nature of it! Honestly, if a watch came out with a comparable e-ink display I’d consider it as refreshing as a Pebble. Nowadays there are [hybrid watches](https://www.fossil.com/en-in/watches/learn-more/hybrid-hr-smartwatches/) that I’ve looked at. They too are going the way of the Pebble, and getting discontinued.
 
 Next are the physical buttons, goodbye fat fingers. I know asking for real buttons nowadays is like asking for a physical keyboard on my smartphone. Call me old if you want to. But having buttons on the small space of my wrist feels better and makes getting the thing to do what I want more attainable. Because of the lack of swipe ability the menus are straightforward and I’ve never gotten confused by it. I’m sure if I had an iWatch as a daily driver I’d figure it out. Whenever I see my wife writing out text messages I get jealous. Still, I stand By the lack of a touch screen to be a good thing.
@@ -41,7 +41,7 @@ Next, I want to talk about the form factor. They knew what they were doing. Sinc
 <div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/GQSpO8dpDesuI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
 
-## Only the best features
+### Only the best features
 
 Biometrics are a scam, change my mind. 
 
@@ -51,7 +51,7 @@ But it does track my steps and sleep. And that’s enough and useful in my day t
 
 <div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/26FfeRGMEmNjTlGQo" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
-## Customizable
+### Customizable
 
 The last thing I want to touch on is the watch faces, apps, and general personality of the watch. They had fun making this, from the smear animations when you get a notification, the coffee cup filling while you charge the watch, to the little mouse that pops up when you activate silent mode. It all makes it a joy to use.
 
