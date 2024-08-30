@@ -25,7 +25,7 @@ The border image is made out of essentially two parts. The corners and the sides
 Here is an example of a border image that you might see in a Pokémon video game. 
 
 
-![Pokemon Dialog Box - Pokemon Text Box Png, Transparent Png - 1491x461 PNG -  DLF.PT](https://www.dlf.pt/dfpng/middlepng/595-5951068_pokemon-dialog-box-pokemon-text-box-png-transparent.png)
+![Pokemon Dialog Box - Pokemon Text Box Png, Transparent Png - 1491x461 PNG -  DLF.PT](/images/pokemon-dialog.png)
 
 <!-- 
 https://www.google.com/search?client=ms-android-samsung-rev2&source=android-browser&q=custom+dialog+frames+in+pokemon&tbm=isch&sa=X&ved=2ahUKEwidwrK7hZ79AhU9kIkEHeYeApoQ0pQJegQICBAB&biw=360&bih=627&dpr=3#imgrc=iO8BRBgdfHrszM&imgdii=k3N9sVEklOIqBM -->
@@ -36,7 +36,7 @@ And it would be pretty straightforward how to implement this in a border image.
 **Complicated Border Image**
 More complicated border images like that of Chrono Cross. 
 
-![https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375943](https://img.game8.co/3518716/19b4c6321e731502e566387bb8bcef2d.png/original)
+![https://game8.co/games/Chrono-Cross-Radical-Dreamers-Edition/archives/375943](/images/skullduggery-orig.png)
 
 
 
@@ -55,7 +55,7 @@ This type is best used when you know the exact dimensions your box is going to b
 This is a simple use for border images that I think is actually one of the most useful. Applying it to one edge so that you don't need to worry about the corners. Say if you wanted to draw a line of curly ques that can just repeat for infinity under an element. 
 
 
-![Curly lines clip art  http://clipart-library.com/clipart/1277034.htm](http://clipart-library.com/img1/1277034.jpg)
+![Curly lines clip art  http://clipart-library.com/clipart/1277034.htm](/images/curly-lines.jpg)
 
 
 This can add a lot of character without a whole lot of work. 
@@ -86,7 +86,7 @@ If you aren't familiar with photoshop you might have never heard of slices. The 
 This is the bread and butter of border images. Once you wrap your head around this you will be ready to make some excellent designs. 
 
 
-![](https://paper-attachments.dropboxusercontent.com/s_2B4FB8CB7B2B2427000E6E2D5CF47919546120F95976BBA88784179D658FBFCF_1676861747088_image.png)
+![images of skullduggery sliced to show border sizes](/images/skullduggery-sliced.png)
 
 
 Looking at the image above the image slices go like this
@@ -152,7 +152,7 @@ A lot of the other websites out there use a dot or diamond pattern to show how t
 
 First we want to start with the image, we want it as small as possible so were going to cut out a lot of the space in the middle.
 
-![](https://paper-attachments.dropboxusercontent.com/s_2B4FB8CB7B2B2427000E6E2D5CF47919546120F95976BBA88784179D658FBFCF_1678158324893_pokemon-border.png)
+![pokemon border from a dialog box in game](/images/pokemon-border.png)
 
 
 This is pretty square and that will allow us to reduce how complicated we make the border image. Its 39 pixels from the each corner to the line that I want stretched between them. That lets me set the image-slice to 39. Which is shorthand that will set the slice 39px from the top, 39px from the right, 39px from the bottom, and 39px from the left.
