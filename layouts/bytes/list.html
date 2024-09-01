@@ -13,7 +13,9 @@
       <ul class="bytes">
       {{ range .Site.Data.bytes }}
       {{ $s := .text}}
-          <li><strong>{{.date}}</strong> <em>{{.time}}</em><p>{{$s | markdownify }}</p></li>
+          <li>
+            <strong>{{.date}}</strong> <em>{{.time}}</em><p>{{$s | markdownify }}</p>
+          </li>
           <hr>
       {{ end }}
     </ul>
