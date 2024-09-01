@@ -9,14 +9,6 @@ description: A introduction to who Bruce Brotherton is.
 
 Looks like you caught me sleeping.
 
-![Man with face shield and mask in front of whiteboard.](/images/bruce-mask.jpg "Gotta wear your mask!")
-
-There that is better, gotta make sure you've got your mask on when you go outside. Honestly, I think masks are interesting and they show you a bit of personality that you don't get out of regular clothes.
-
-![Man outside smiling. ](/images/bruce-face.jpg "Still have a mask. 2020 is crazy.")
-
-But here is my awake face. Anyway.
-
 ## Welcome to my corner of the internet.
 
 Hi, I'm Bruce Brotherton - a bit odd, maybe. That's a lie, I'm as normal as they come. But really I want to welcome you to whatever this page becomes. I have a lot of interests and passions with a career in Web Development.
