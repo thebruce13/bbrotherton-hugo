@@ -1,6 +1,6 @@
 baseURL = "https://www.brucebrotherton.com/"
 disableLanguages = []
-disqusShortname = "brucebrotherton"
+disqusShortname = ""
 googleAnalytics = "G-32H9G3NJDD"
 languageCode = "en-us"
 languageName = "En"
