@@ -1,5 +1,10 @@
 [
     {
+        "date": "09/03/2024",
+        "time": "4:41pm",
+        "text": "Finally got a Windows10 VM running on my Linux partition the way I want it to. I may be able to primarily switch to Linux from here on out. The few windows exclusive apps I use on Windows are now at my disposal."
+    },
+    {
         "date": "08/31/2024",
         "time": "11:09pm",
         "text": "I wish Twitter didn't take such a downturn. I really want to share my cool [Codepen about how I used border images to create a torn paper look](https://codepen.io/brucebrotherton/pen/JjQaENz) for some content. But now, nobody will see it there.[![Screenshot of website with torn paper borders.](/images/torn-border.png)](https://codepen.io/brucebrotherton/pen/JjQaENz) \n\n If you want to read more, I wrote a whole [blog post about border images](/blog/border-image)."
