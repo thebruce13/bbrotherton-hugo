@@ -23,13 +23,13 @@ Then I thought it might have something to do with my UFIE boot or Secure Boot or
 
 Then it would finally, gloriously, start to install. Only to run into an error saying there was a log of the error somewhere and I could try to reinstall. This went on for days before I saw that it [doesn’t even support MBR](https://github.com/spxak1/weywot/blob/main/Pop_OS_Dual_Boot.md#31-install-pop_os-first-windows-second-easiest) and I would have to install GRUB separately so I gave up on it.
 
-So I settled with [Ubuntu Budgie](#) because of the dock it provided off the bat, and the nicer interface compared to stock Ubuntu. I will have to mention that Ubuntu is the primary OS I’ve used outside of this experiment and the one I am most comfortable with. The only other distro I have any experience with is a non-GUI CentOS that I had to use in college for networking courses.
+So I settled with [Ubuntu Budgie](https://ubuntubudgie.org/) because of the dock it provided off the bat, and the nicer interface compared to stock Ubuntu. I will have to mention that Ubuntu is the primary OS I’ve used outside of this experiment and the one I am most comfortable with. The only other distro I have any experience with is a non-GUI CentOS that I had to use in college for networking courses.
 
 Pop_OS was tossed out and Ubuntu was brought in. But it took me at least a week to get to this point. I’m about ready to give up on switching to Linux.
 
 <div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/3XEgV9kfwLy1i" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
-I still hang in there because of the success I had on an old netbook from 2014 that I recently installed [Lubuntu](#) on and it runs fantastic. Especially when you consider it only has a single-core processor and two gigs of ram. I did that experiment because the keyboard on the [ThinkPad X100e](#) is phenomenal. I was able to open up GIMP on that netbook and do photo correction. This thing had trouble opening Firefox when it was running Windows 7. If you have a low-powered laptop or computer I highly suggest nuking the hard drive (backing up stuff first of course) and installing Linux on top of it. It resurrected an excellent piece of hardware.
+I still hang in there because of the success I had on an old netbook from 2014 that I recently installed [Lubuntu](https://lubuntu.me/) on and it runs fantastic. Especially when you consider it only has a single-core processor and two gigs of ram. I did that experiment because the keyboard on the [ThinkPad X100e](https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x100e-dual-core) is phenomenal. I was able to open up GIMP on that netbook and do photo correction. This thing had trouble opening Firefox when it was running Windows 7. If you have a low-powered laptop or computer I highly suggest nuking the hard drive (backing up stuff first of course) and installing Linux on top of it. It resurrected an excellent piece of hardware.
 
 So, after many, many attempts to partition the drives just right and set up the OS three more days go by trying to get it to recognize my drives and install the OS. I finally get it installed and get my setup going with apps I normally use installed. I shut it down, noticing an error that gets repeated, and then force shut it down thinking nothing of it, and go to bed.
 
@@ -41,7 +41,7 @@ Time to install a stock version of Ubuntu to see if that fixes the filled hard d
 
 <div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/GXrojV8tqhxR7ZsZeI" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
-The next day I have to google what I need to do to get it past the black screen and I [come across a solution](#) to toss “nomodeset” at the end of a line in GRUB. Sweet, I toss that in there and I am in Ubuntu and everything is working great.
+The next day I have to google what I need to do to get it past the black screen and I [come across a solution](https://askubuntu.com/questions/38780/how-do-i-set-nomodeset-after-ive-already-installed-ubuntu/) to toss “nomodeset” at the end of a line in GRUB. Sweet, I toss that in there and I am in Ubuntu and everything is working great.
 
 Turns out there is an issue with NVIDIA cards (yes, you Linux veterans we know this is an issue – part of the reason why I wanted to go with POP_OS).
 
@@ -51,13 +51,13 @@ I am in, everything is working – I apply the long-term fix from the post I saw
 
 <div style="width:100%;height:0;min-height:200px;padding-bottom:25%;position:relative;"> <iframe src="https://giphy.com/embed/gU25raLP4pUu4" width="100%" height="100%" style="position:absolute" frameBorder="0" allowFullScreen></iframe></div>
 
-I wake up the next day ready to work, I log into Linux and WTH my disk is full again! What is going on here? I end up googling it and [finding that Syslog and kernel.log were gigs worth of error messages.]() Guess I should have paid attention when shutting down. My computer was logging an infinite loop to these files and they got huge QUICK. I did a `tail -100` of each of them into a text file inside my Document folder and deleted them. I HAVE HARD DRIVE SPACE AGAIN.
+I wake up the next day ready to work, I log into Linux and WTH my disk is full again! What is going on here? I end up googling it and [finding that Syslog and kernel.log were gigs worth of error messages.](https://forums.linuxmint.com/viewtopic.php?t=388316) Guess I should have paid attention when shutting down. My computer was logging an infinite loop to these files and they got huge QUICK. I did a `tail -100` of each of them into a text file inside my Document folder and deleted them. I HAVE HARD DRIVE SPACE AGAIN.
 
-Now I needed to fix my error that was filling up my log files. I opened up the ones I made inside my Documents folder and found this error. `PCIe Bus Error: severity=Corrected, type=Physical Layer` So I google that and I see I need to [modify my GRUB file once again](#). Get that in there. Restart, no error. I am finally in the clear.
+Now I needed to fix my error that was filling up my log files. I opened up the ones I made inside my Documents folder and found this error. `PCIe Bus Error: severity=Corrected, type=Physical Layer` So I google that and I see I need to [modify my GRUB file once again](https://askubuntu.com/questions/863150/pcie-bus-error-severity-corrected-type-physical-layer-id-00e5receiver-id). Get that in there. Restart, no error. I am finally in the clear.
 
 After all of that, I fstarted installing apps from the package manager and that is probably one of the nicest experiences I've had setting up my programs. Blender, GIMP, Inkscape, Krita, and VSCode were all installed without a hitch.
 
-I also needed Slack and Zoom installed and they weren't available in the app store. But with the [snap appstore]() I simply searched for them and installed them. Little did I know at the time that I could just add that to my software manager and pulled out a step.
+I also needed Slack and Zoom installed and they weren't available in the app store. But with the [snap appstore](https://snapcraft.io/snap-store) I simply searched for them and installed them. Little did I know at the time that I could just add that to my software manager and pulled out a step.
 
 Bluetooth compared to Windows is far superior. A pair of Bluetooth headphones that Windows would just not recognize were picked up immediately.
 
@@ -89,7 +89,7 @@ So far it has come to the conclusion that if time isn't a factor Linux is great 
 
 I didn't spend a lot of time on my computer over the weekend. I mostly was in the living room with my wife and we played games on the Nintendo Switch. I did however scan some files and work on the heading image for another post. It worked just like a computer should.
 
-However, I couldn't access the data on my other hard drives, where I was planning on storing the files for the heading image. It kept giving me an error saying they were read-only. I had to mount and then remount the drives following [this stack exchange]().
+However, I couldn't access the data on my other hard drives, where I was planning on storing the files for the heading image. It kept giving me an error saying they were read-only. I had to mount and then remount the drives following [this stack exchange](https://askubuntu.com/questions/161759/how-to-access-a-shared-folder-in-virtualbox).
 
 Turns out. Linux can't write to NTFS drives...if [Windows quick boot is on](https://manpages.ubuntu.com/manpages/bionic/en/man8/mount.ntfs-3g.8.html). Once I turned that off I was able to write files to my other drives.
 
