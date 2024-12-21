@@ -136,6 +136,10 @@ My favorite use of this is giving it a very subtle, transparent border around im
 
 `box-shadow: 0 0 0 1px rgb(0 0 0 / 5%);`
 
+## Background Clip
+
+Something to keep in mind is an attribute called `background-clip` it dictates how the background is painted within an element. Its default value is `border-box` which means the background will paint to the edge of the border. If you prefer the background to be contained inside the border use `padding-box`. This way your border can be treated more like the outline of the element but not use the outline property. Lastly, there is `content-box` which will move the background into the element and only take up as much space as the [content area](/blog/box-model-content/). 
+
 ### Border Radius
 
 Okay, so there is one more thing I want to touch on before wrapping this up, that is the [border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius). It doesn't affect the box model, but it makes a huge impact visually. This property allows you to have curved edges on your boxes or circles for that matter. Just make sure you have `position: relative; overflow: hidden;` it in case you put another thing inside this that has a background color. If you are looking for a fast and fun way to make some organic-looking shapes using border-radius, I would use [Mirko and Nils border radius generator](https://9elements.github.io/fancy-border-radius/). However, like my dropdown menu example, I like to make elements just a little rounded and pill-shaped to make it fun more subtly.

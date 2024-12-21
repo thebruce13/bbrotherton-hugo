@@ -243,6 +243,8 @@ Still I was curious about some cool applications for this so here is a codpen to
 
 Two quick things Border-image isn’t affected by by border-radius. [Stephen Shaw](https://codepen.io/shshaw/pen/MqMZGR) has a good work around. Also, you can’t have two slashes in the shorthand with nothing in-between them. For example: `border-image: url(…) 30 fill / / tile` will be invalid. According to the [W3C Spec for border-image](https://www.w3.org/TR/css-backgrounds-3/#border-image) it runs like this `<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>` so if you omit a slash it will be filled with another value. I would recommend reading the [whole spec for border-image](https://www.w3.org/TR/css-backgrounds-3/#border-images) - it has a really cool example of a complicated border you could design. 
 
+Something that you will need to keep in mind while developing your border-images is how you want the [background](https://www.brucebrotherton.com/blog/box-model-borders#background-clip) to be treated. You can use `background-clip: padding-box` to push the image inside of your border so there won't be any conflict with it and your image. 
+
 
 ## Go forth and build a better box
 
