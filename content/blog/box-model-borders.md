@@ -138,7 +138,7 @@ My favorite use of this is giving it a very subtle, transparent border around im
 
 ## Background Clip
 
-Something to keep in mind is an attribute called `background-clip` it dictates how the background is painted within an element. Its default value is `border-box` which means the background will paint to the edge of the border. If you prefer the background to be contained inside the border use `padding-box`. This way your border can be treated more like the outline of the element but not use the outline property. Lastly, there is `content-box` which will move the background into the element and only take up as much space as the [content area](/blog/box-model-content#content-box). 
+Something to keep in mind is an attribute called `background-clip` it dictates how the background is painted within an element. Its default value is `border-box` which means the background will paint to the edge of the border. If you prefer the background to be contained inside the border use `padding-box`. This way your border can be treated more like the outline of the element but not use the outline property. Lastly, there is `content-box` which will move the background into the element and only take up as much space as the [content area](/blog/box-model-content#content-box). And one more that isn't related to border, `background-clip: text` and this will give you a really cool text cutout effect.
 
 ### Border Radius
 
