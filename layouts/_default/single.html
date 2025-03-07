@@ -77,7 +77,13 @@
       {{ .Content }}
     </div><!-- .entry-content -->
   </div><!-- .post-inner -->
-
+  {{ if .Params.Update }}
+  <div class="post-inner">
+    <div class="entry-content">
+      <p>Updated: <strong>{{.Params.Update.Format "January 02, 2006"}}</strong></p>
+    </div>
+  </div>
+  {{end}}
   <div class="section-inner">
     <div class="post-meta-wrapper post-meta-single post-meta-single-bottom">
       <ul class="post-meta">

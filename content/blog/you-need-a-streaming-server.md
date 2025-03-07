@@ -2,6 +2,7 @@
 author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
 date = 2023-11-01T01:00:00Z
+update = 2023-12-02T15:45:00Z
 description = "You need to get a streaming server set up. Unlock the media you already own."
 image = "/images/plex-stream.jpg"
 tags = ["Life"]
