@@ -2,6 +2,7 @@
 author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
 date = 2024-08-19T15:45:00Z
+update = 2025-03-07T15:45:00Z
 description = "The Pebble smartwatch was peak design and usability. Too bad its a fossil now."
 image = "/images/pebble.jpg"
 tags = ["Life"]
@@ -9,6 +10,13 @@ title = "My Pebble"
 
 +++
 This post is just a love letter to Pebble and the Pebble Time. This is my most beloved smartwatch. I bought a Pebble Time in 2015 the next year they got bought out by Fitbit. After they shut down the Pepple app and its store I caved and bought a Fitbit Versa. It was close to the Pepple in style and features. And it worked pretty well for a long time. However, earlier this year my Fitbit died and went into a permanent boot loop. I reached out to Fitbit for help but the best they could do is give me a discount on a new Fitbit. Better than nothing but I wasn’t down to spend that kind of cash.
+
+## Update 3/7/2025
+It looks like my prayers have been answered. January of this year (2025) [Google has released the PebbleOS](https://opensource.googleblog.com/2025/01/see-code-that-powered-pebble-smartwatches.html) to the public. This has allowed the original creator, [Eric Migicovsky](https://bsky.app/profile/did:plc:nro7kx7qz6fe4j3mezfqhd6m), to start back up production on [(re)Pebble](https://repebble.com/) and continue the legacy. I, for one, am VERY excited.
+
+I also had an opportunity to take a turn with a Samsung Smartwatch 7. I was not impressed. The screen sure had a lot of fidelity but the lack of personality and customizations available made it feel lackluster. $2 per watch face increased the friction of me wanting to use it. And the ones that were available either had too much going on or were dead simple. Texting using the watch was incredibly clunky and switching to voice-to-text needed some swipe gestures I couldn't do without some concentration. The AOD was also a bit of a problem, I didn't like that I could see my watch face in the middle of the night charging next to my alarm clock. I enjoy that the Pebble eInk is reflective and not emitting. Maybe with some time, I could master it but I ended up returning the watch and switched back to my Pebble. 
+
+I also changed my phone back to Andriod, the Samsung Galaxy 25, it has been a world of difference. All my original watch faces appeared in the Pebble app (after sideloading it using Rebble.io's instructions) and now I have voice-to-text or canned replies for sending messages. That has been incredibly smooth to work with. Once again, and even more so, this is the smartwatch of my dreams.
 
 ## Cheap Dumb Casio
 So I decided to forgo smart watches and buy a Casio F-901w. It's a classic digital watch that can go anywhere and survive just about anything I’ll throw at it. It’s my go-to watch whenever I go to the pool. Life was good and having the hourly chime was extra nice since it allowed me to notice the passage of time. Not having my watch monitor my every move and every heartbeat was liberating. Being able to tell the time without flicking my wrist just the right way was a habit I had to unlearn. It was also small and lightweight so I hardly noticed it was there, it never got caught on a long-sleeved shirt or jacket.
