@@ -1,7 +1,7 @@
 +++
 author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
-date = 2025-07-14T15:15:00Z
+date = 2025-07-15T09:50:00Z
 description = "I've been a life long tinkerer and wanted to talk about the stuff I've been playing with recently."
 image = "/images/columns.jpg"
 tags = ["Beginner", "Css", "JavaScript"]
