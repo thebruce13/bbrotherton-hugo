@@ -56,7 +56,7 @@ I’ve been going neck-deep into running Linux. I just got new components and ma
 
 Once Trump’s “Big Beautiful Bill” passed and I assumed he and his administration would have more and more access to my data that Windows collects and reports, I decided It was time to jump ship once more.
 
-This time I went with dual booting Mint with Windows, and I tell you what - I’m loving it. I was able to find and install Plank to have a dock, grabbed Icons that Ubuntu Budgie was using, and made the system feel like it was mine. But I’ve switched to Linux not once but twice already. I think it’ll stick now. Windows just doesn’t hit anymore.
+This time I went with dual booting Mint with Windows, and I tell you what - I’m loving it. I was able to find and install Plank to have a dock, grabbed Icons that Ubuntu Budgie was using, and made the system feel like it was mine. But I’ve switched to Linux [not once](https://www.brucebrotherton.com/blog/going-linux/) but [twice](https://www.brucebrotherton.com/blog/linux-again/) already. I think it’ll stick now. Windows just doesn’t hit anymore.
 
 On the other hand, I just installed Mint on an old laptop and themed it to look like Windows XP and it is now my favorite device to use. I’m writing this blog post on it right now and it’s lovely. The laptop itself isn’t super powerful so no games - but that is for the best, keeps me from goofing off when it is in my lap. The battery lasts long too so that is good. My more powerful laptop that has stock Windows 11 lasts for about 2 hours on battery.
 
@@ -80,7 +80,7 @@ I proceeded to pull it out, installed a GUI-less version of Debian onto an 8gig 
 
 ### Ram butting a dam
 
-I ran just about everything I could from the command line for it to see and share my printer. lpstats documentation did not help much. I finally found [this solution] ([https://docs.oracle.com/cd/E36784_01/html/E36821/gllia.html#scrolltoc](https://docs.oracle.com/cd/E36784_01/html/E36821/gllia.html#scrolltoc)) that got me close. After running around every command I could I got it sorry if shared. Lpstat said it was but nobody could see it print from it.
+I ran just about everything I could from the command line for it to see and share my printer. lpstats documentation did not help much. I finally found [this solution](https://docs.oracle.com/cd/E36784_01/html/E36821/gllia.html#scrolltoc) that got me close. After running around every command I could I got it sorry if shared. Lpstat said it was but nobody could see it print from it.
 
 I threw in the towel to configure it via the command line and set it up to allow network GUI access.
 
@@ -88,7 +88,7 @@ This is where I was able to follow one of the YouTube tutorials on setting up CU
 
 ## PI to PS2
 
-I later got a new printer that had WiFi abilities and the PI sat again. Then I found a tutorial to have my PI serve as an interface to give my PS2 Slim access to ISOs to run games natively. I got it about 90% there and found a CRT to hook it up to to play games. Sadly I never completed it and have to swap my disks now to play games. Still having a CRT TV to play video games is pretty dope. I even hooked up my old gaming PC to it, the one that runs my Plex server, and enjoy playing my Steam library on the CRT, even if the overscan is a bit rough to work around.
+I later got a new printer that had WiFi abilities and the PI sat again. Then I found a tutorial to have my PI serve as an interface to give my PS2 Slim access to ISOs to run games natively. I got it about 90% there and found a CRT to hook it up to to play games. Sadly I never completed it and have to swap my disks now to play games. Still having a CRT TV to play video games is pretty dope. I even hooked up my old gaming PC to it, the one that runs my [Plex server](https://www.brucebrotherton.com/blog/you-need-a-streaming-server/), and enjoy playing my Steam library on the CRT, even if the overscan is a bit rough to work around.
 
 ![playstation 2 with system info on tv screen](/images/ps2.jpg)
 
