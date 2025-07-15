@@ -3,8 +3,8 @@ author = ["Bruce Brotherton"]
 categories = ["Computers", "Rambling"]
 date = 2025-07-15T09:50:00Z
 description = "I've been a life long tinkerer and wanted to talk about the stuff I've been playing with recently."
-image = "/images/columns.jpg"
-tags = ["Beginner", "Css", "JavaScript"]
+image = "/images/tech-love.jpg"
+tags = ["life"]
 title = "Loving Tech"
 
 +++
