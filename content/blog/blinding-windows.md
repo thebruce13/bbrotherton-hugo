@@ -8,11 +8,9 @@ tags = ["life"]
 title = "Blinding Windows"
 
 +++
-As much as it pains me, I have my computer dual-booted with Windows. I’ve been having a hell of a time getting [Battle.net](http://battle.net/) to work reliably on Linux.* Still, when I’m using it, I want to do what I can to stay secure and keep prying eyes off my stuff. I’m going to go through what I use to blind the all-seeing eye of Microsoft, and then go into what I use to make my experience with it a little nicer.
+As much as it pains me, I have my computer dual-booted with Windows. I’ve been having a hell of a time getting [Battle.net](http://battle.net/) to work reliably on Linux. Still, when I’m using it, I want to do what I can to stay secure and keep prying eyes off my stuff. I’m going to go through what I use to blind the all-seeing eye of Microsoft, and then go into what I use to make my experience with it a little nicer.
 
 First, we start with DoNotSpy11, and then we will move into modifying the Host file. I’ll also throw in a couple of things, like how to create a local user account and disable those annoying hotkeys.
-
-*I finally got it working using Bottles, I directed it to my installed version of Battle.net that I installed while running Windows. Set up the Runner to be the latest `kron4ek-wine-VER-staging-tkgh-ntsync-amd64-wow64 version`. Turned on Feral Mode. In **Advanced Display Settings** I set up Virtual Desktop to have the same resolution of my monitor. 
 
 ## DoNotSpy11
 
