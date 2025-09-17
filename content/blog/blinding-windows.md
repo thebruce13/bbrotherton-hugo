@@ -166,4 +166,6 @@ Can't have this article without mentioning Wallpaper Engine. This has a ton of o
 
 This is a paid customization tool that is packed with features. You can even get a skin to make it look like Vista. Stardock has a start menu replacer as well. These are nifty but a little overkill for what I want to do.
 
-Anyway, Windows is bad, use Linux, [here is my t-shirt].(https://www.teepublic.com/t-shirt/77608139-resist-run-linux?store_id=125496) [![tshirt depeciting tux penguin with the words resist run linix](/images/resist-linux.jpg)](https://www.teepublic.com/t-shirt/77608139-resist-run-linux?store_id=125496) Thats all for now.
+Anyway, Windows is bad, use Linux, [here is my t-shirt](https://www.teepublic.com/t-shirt/77608139-resist-run-linux?store_id=125496). [![tshirt depeciting tux penguin with the words resist run linix](/images/resist-linux.jpg)](https://www.teepublic.com/t-shirt/77608139-resist-run-linux?store_id=125496)
+
+Thats all for now.
