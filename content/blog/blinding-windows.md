@@ -102,7 +102,7 @@ In this situation you will need to press `ctrl+shift+j` and then type `WinJS.App
 
 ### Make me a local
 
-Making yourself a local user after hooking up to a Microsoft account is pretty straightforward.  Go to settings. Click your name in the top left. Choose Sign in as Local User. You still have to untangle yourself from OneDrive, though.
+Making yourself a local user after hooking up to a Microsoft account is pretty straightforward.  Go to settings. Click your name in the top left. Choose Sign in as Local User. You still have to [untangle yourself from OneDrive](https://support.microsoft.com/en-us/office/turn-off-disable-or-uninstall-onedrive-f32a17ce-3336-40fe-9c38-6efb09f944b0), though.
 
 ## Get a VPN
 
