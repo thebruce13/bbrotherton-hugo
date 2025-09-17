@@ -15,7 +15,11 @@ First, we start with DoNotSpy11, and then we will move into modifying the Host f
 ## Removing Microsoft Crud
 
 ### Chris Titus Windows Utility
-I just found this utility recently, [Chris Titus Windows Utility](https://christitus.com/windows-tool/), and I am very impressed with the depth this offers. It has an all-in-one updater for your programs as well as a feature to download them, so it's a [Ninite](https://ninite.com/) alternative. It has a slimmed-down version of Tweaks to your system compared to other tools to make it less spyware, along with one-click buttons to apply them. As someone who works on computers, the Config tab is amazing; it makes buried tools like the Printer panel available again. As well as some settings that are near impossible to execute, [Auto Login](https://windowsreport.com/windows-11-auto-login/), for example. The only downside to this is that you need to run it from an elevated PowerShell window. But the command is simple enough. `iwr -useb https://christitus.com/win | iex`. If you want to support Chris, the .exe is [available for $10](https://christitus.com/downloads/). I believe this is a valuable Swiss Army Knife for tech support professionals and think it'd be $10 well spent. 
+I just found this utility recently, [Chris Titus Windows Utility](https://christitus.com/windows-tool/), and I am very impressed with the depth this offers. It has an all-in-one updater for your programs as well as a feature to download them, so it's a [Ninite](https://ninite.com/) alternative. It has a slimmed-down version of Tweaks to your system compared to other tools to make it less spyware, along with one-click buttons to apply them. As someone who works on computers, the Config tab is amazing; it makes buried tools like the Printer panel available again. As well as some settings that are near impossible to execute, [Auto Login](https://windowsreport.com/windows-11-auto-login/), for example. The only downside to this is that you need to run it from an elevated PowerShell window. But the command is simple enough. 
+
+```iwr -useb https://christitus.com/win | iex```
+
+If you want to support Chris, the .exe is [available for $10](https://christitus.com/downloads/). I believe this is a valuable Swiss Army Knife for tech support professionals and think it'd be $10 well spent. 
 
 ### Shut up Windows
 
