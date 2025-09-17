@@ -12,9 +12,18 @@ As much as it pains me, I have my computer dual-booted with Windows. I’ve been
 
 First, we start with DoNotSpy11, and then we will move into modifying the Host file. I’ll also throw in a couple of things, like how to create a local user account and disable those annoying hotkeys.
 
-## DoNotSpy11
+## Removing Microsoft Crud
 
-One of the first things I would do is download [DoNotSpy11 from pXC-coding](https://pxc-coding.com/donotspy11/). I take comfort in this product; they have been doing this since Windows 7. This gives you access to over 200 settings you can turn on or off. Letting you disable Apps from accessing just about anything. With the setting put into categories like “Advertising” or “Privacy” or even the reason I [jumped to Linux for the second time](https://www.brucebrotherton.com/blog/linux-again/), “Copilot”.
+### Chris Titus Windows Utility
+I just found this utility recently, [Chris Titus Windows Utility](https://christitus.com/windows-tool/), and I am very impressed with the depth this offers. It has an all-in-one updater for your programs as well as a feature to download them, so it's a [Ninite](https://ninite.com/) alternative. It has a slimmed-down version of Tweaks to your system compared to other tools to make it less spyware, along with one-click buttons to apply them. As someone who works on computers, the Config tab is amazing; it makes buried tools like the Printer panel available again. As well as some settings that are near impossible to execute, [Auto Login](https://windowsreport.com/windows-11-auto-login/), for example. The only downside to this is that you need to run it from an elevated PowerShell window. But the command is simple enough. `iwr -useb https://christitus.com/win | iex`. If you want to support Chris, the .exe is [available for $10](https://christitus.com/downloads/). I believe this is a valuable Swiss Army Knife for tech support professionals and think it'd be $10 well spent. 
+
+### Shut up Windows
+
+I have also recently seen a program called [ShutUp10++](https://www.oo-software.com/en/shutup10). It has a much more friendly UI than DoNotSpy11 and has a few features that will make using Windows a little nicer, like turning off the “Lets finish setting up your PC” on boot. If DoNotSpy11 seems overwhelming, give this one a try. Honestly, I’ll probably be using this one more often than not.
+
+### DoNotSpy11
+
+[DoNotSpy11 from pXC-coding](https://pxc-coding.com/donotspy11/) was my first introduction to the tweaking of Windows to remove its spyware. Of the available software to remove Microsoft crud, it is the most comprehensive but also the least beginner friendly. I take comfort in this product; they have been doing this since Windows 7. This gives you access to over 200 settings you can turn on or off. Letting you disable Apps from accessing just about anything. With the setting put into categories like “Advertising” or “Privacy” or even the reason I [jumped to Linux for the second time](https://www.brucebrotherton.com/blog/linux-again/), “Copilot”.
 
 Personally, I turned off everything that had to do with Advertising. A lot of things I didn’t think Windows needed to know under Privacy. 
 
@@ -28,9 +37,6 @@ Then I disabled everything to do with Copilot and Recall; they can fully eat my 
 
 Lastly, I disable anything to do with [Telemetry](https://www.geeksforgeeks.org/techtips/enable-or-disable-windows-telemetry/). It frees up resources and reduces the amount of stuff Windows gets from me.    
 
-### Shut up Windows
-
-I have also recently seen a program called [ShutUp10++](https://www.oo-software.com/en/shutup10). It has a much more friendly UI than DoNotSpy11 and has a few features that will make using Windows a little nicer, like turning off the “Lets finish setting up your PC” on boot. If DoNotSpy11 seems overwhelming, give this one a try. Honestly, I’ll probably be using this one more often than not.
 
 ## Host file
 
