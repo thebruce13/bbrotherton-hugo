@@ -110,7 +110,7 @@ Sometimes the ones that are built in wont work and you’ll need to download ano
 
 After you have installed a new runner, go back up this article to see how to choose it from the drop down in the Runner Options of Lutris. 
 
-I think that is it. If you have any tips please make a pull request for this blog article at [githubpage]. 
+I think that is it. If you have any tips please make a pull request for this blog article at [githubpage](https://github.com/thebruce13/bbrotherton-hugo/blob/master/content/blog/wow-on-linux.md). 
 
 ## Additional Resources
 
