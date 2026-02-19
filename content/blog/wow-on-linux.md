@@ -66,7 +66,7 @@ Install it from there and follow the directions, **don’t sign in when prompted
 
 Chances are it won’t load properly so you will need to use a different runner for Battle.net. 
 
-#### What the hell it isn’t installing??
+#### Why the hell, it isn’t installing??
 
 Thanks to GloriousEggroll for the video on how to get around this hang. [https://www.youtube.com/watch?v=PRY56C9Jce0](https://www.youtube.com/watch?v=PRY56C9Jce0)
 
