@@ -5,6 +5,7 @@ googleAnalytics = "G-32H9G3NJDD"
 languageCode = "en-us"
 languageName = "En"
 paginate = "6"
+enableRobotsTXT = true
 summaryLength = "10"
 theme = "bbrother"
 title = "Bruce's Brackets"
