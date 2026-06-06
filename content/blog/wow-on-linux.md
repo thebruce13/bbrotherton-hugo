@@ -6,6 +6,7 @@ description = "WoW is the game that I can't live without. I need to get it worki
 image = "/images/wow-on-linux.jpg"
 tags = ["life"]
 title = "WoW on Linux"
+update = 2026-06-06T02:19:00Z 
 
 +++
 Holy hell, if there is one program that kept me on Windows, it’s World of Warcraft. It took me forever to figure out how to get it going and I couldn’t find a good guide that went through the whole process. The forums all say “use Lutris” or “run it through steam” and yes, those are the solutions, but it’s a few more steps than just installing and click run. So I’m here to help set that process up and help you get in to Azeroth. It shouldn’t matter but, I use Linux Mint, so if you’re on non-Debian distro, your mileage may vary. 
