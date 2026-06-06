@@ -12,6 +12,9 @@ Holy hell, if there is one program that kept me on Windows, it’s World of Warc
 
 I want to point out before we get into this, World of Warcraft works out of the box, it’s the Battle.net launcher that causes all the headaches. You can navigate to the WoW.exe and double click it and it’ll run. However, updating is impossible, you have to use the launcher. My solution for awhile was just booting into Windows and updating from there.
 
+## TL;DR
+I had this buried at the bottom of the article becauase it didn't work for me at the time when I wrote this, but using [Faugus](https://github.com/Faugus/faugus-launcher) is by far the easiest route and you should try that first before continuing with this. But if you, like me, have WoW on a seperate hard drive that you use with Windows as well - keep reading.
+
 ## My setup
 
 I dual boot Windows, or I used to, so my WoW files were all on my Windows partition. Windows only works with an NTFS partitions and mounting it is a bit finicky for Linux. Luckily, after you set up your fstab file correctly you can pretty much forget about it. If you only use one hard drive you can skip this part. 
@@ -28,7 +31,7 @@ Click the two cog wheels underneath where you choose your partition. Choose Edit
 
 Here we want to input
 
-![sceenshot showing mount permissions for drive](/images/wow-on-linux-mount-setup.jph)
+![sceenshot showing mount permissions for drive](/images/wow-on-linux-mount-setup.jpg)
 
 `uid=1000,gid=1000,umask=0022,nosuid,nodev,nofail,x-gvfs-show,x-gvfs-name=Cheats`
 
